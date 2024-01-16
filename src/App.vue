@@ -12,6 +12,7 @@ export default {
     appAbout,
     appServices,
     appHome,
+    appFooter,
   },
 
 
