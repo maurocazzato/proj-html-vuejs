@@ -5,9 +5,13 @@
 <template>
  
  <h1>
-    CIAOOOOOO
+    CIAOOOOOONNEEEEEEEEEEEEE
  </h1>
- 
+
+ <h2>
+    HOLAAAAAAAAA
+ </h2>
+
 </template>
 
 <style lang="scss" scoped>
