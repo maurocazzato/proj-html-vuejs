@@ -1,12 +1,35 @@
 <script>
+import appAbout from './components/appAbout.vue';
+import appServices from './components/appServices.vue';
+import appHeader from './components/appHeader.vue';
+import appFooter from './components/appFooter.vue';
+import appHomefrom './components/appHome.vue';
+
+export default {
+  name: 'App',
+  components: {
+    appHeader,
+    App,
+    appAbout,
+    appServices,
+    appHome,
+  },
+
+
+}
 
 </script>
 
 <template>
+    <appHeader/>
+    <appHome/>
+    <appAbout/>
+    <appServices/>
+    <appFooter/>
  
 </template>
 
 <style lang="scss">
-@use './styles/partials/_variables' as *;
-@use './styles/_general.scss' as *;
+@use './styles/partials/_variables';
+@use './styles/_general.scss';
 </style>
