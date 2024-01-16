@@ -3,7 +3,7 @@ import appAbout from './components/appAbout.vue';
 import appServices from './components/appServices.vue';
 import appHeader from './components/appHeader.vue';
 import appFooter from './components/appFooter.vue';
-import appHomefrom './components/appHome.vue';
+import appHome from './components/appHome.vue';
 
 export default {
   name: 'App',
