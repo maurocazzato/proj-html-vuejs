@@ -1,10 +1,5 @@
 <script>
 
-    export default {
-        name: "appHome",
-
-    }
-
 </script>
 
 <template>
