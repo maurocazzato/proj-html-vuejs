@@ -9,7 +9,6 @@ export default {
   name: 'App',
   components: {
     appHeader,
-    App,
     appAbout,
     appServices,
     appHome,
