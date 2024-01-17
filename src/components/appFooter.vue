@@ -167,14 +167,14 @@ export default {
         /* form style */
         .contact-form {
             position: absolute;
-            top:  -250px;
+            top:  -230px;
             left: 50;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             max-width: 800px;
-            height: 150px;
+            height: 180px;
             padding: 20px;
             background-color:  rgba(206,124,42,255);
             border-radius: 5px;
@@ -182,7 +182,7 @@ export default {
 
         .contact-form img {
            width: 40%;
-           margin-bottom: 60px;
+           margin-bottom: 83px;
            margin-right: 60px;
         }
 
