@@ -113,8 +113,6 @@ export default {
 
 <style lang="scss" scoped>
 
-@use '../styles/general';
-
 
 .service {
     width: 60%;

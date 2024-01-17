@@ -31,9 +31,9 @@ export default {
         <div class="logo-container">
             <div><img src="../assets/logo.png" alt=""></div>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
+                <router-link :to="{name: 'appHome'}">Home</router-link>
+                <router-link :to="{name: 'appHome'}">About</router-link>
+                <router-link :to="{name: 'appHome'}">Service</router-link>
             </nav>
             <div class="hamburger-menu" onclick="toggleNav()">
                 <div>
@@ -51,7 +51,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/general';
+
 
 .header {
     background-color: rgba(127,112,69,255);
