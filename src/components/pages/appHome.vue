@@ -161,15 +161,21 @@
     <!-- sono due blocchetti, il secondo al suo interno ne ha altri due-->
     <!-- blocchetto 1 -->
     <div class="container blocco1-container">
+      <div class="text-container">
+        <p>Review & Rating</p>
+        <h1>Over 8000 Customers With 5-star Reviews</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+      </div>
+    </div>
+    <div class="container blocco2-container">
       <p>Review & Rating</p>
       <h1>Over 8000 Customers With 5-star Reviews</h1>
       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
     </div>
-    <div class="container blocco2-container">
-      
-    </div>
     <div class="container blocco3-container">
-      
+      <p>Review & Rating</p>
+      <h1>Over 8000 Customers With 5-star Reviews</h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
     </div>
   </div>
  </section>
@@ -295,7 +301,7 @@
   background-color: lightblue;
 
   .blocco1-container, .blocco2-container, .blocco3-container{
-    width: 33%;
+    max-width: 33%;
     height: 100%;
     margin: auto;
     text-align: center;
@@ -303,8 +309,11 @@
     // debugging
     background-color: lightpink;
     border: 1px solid black;
-  }
 
+    .text-container{
+      background-color: #ce7c2a;
+    }
+  }
 }
 
 </style>
