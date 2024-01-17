@@ -168,14 +168,10 @@
       </div>
     </div>
     <div class="container blocco2-container">
-      <p>Review & Rating</p>
-      <h1>Over 8000 Customers With 5-star Reviews</h1>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+      
     </div>
     <div class="container blocco3-container">
-      <p>Review & Rating</p>
-      <h1>Over 8000 Customers With 5-star Reviews</h1>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+      
     </div>
   </div>
  </section>
