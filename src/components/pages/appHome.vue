@@ -6,6 +6,18 @@
 </script>
 
 <template>
+  <!-- jumbo home -->
+  <div class="backgroundbox">
+        <div class="jumbo-script">
+            <h1>Welcome to <br>DogMilo Pets</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          
+            <div class="btn-jumbo">
+                <button type="button" class="custom-btn-orange">Get Started</button>
+                <button type="button" class="custom-btn"><i class="fa-regular fa-circle-play"></i></button>
+            </div>
+          </div>
+    </div>
 
   <!-- io lo dividerei in 4 sezioni
       1) Welcome DogMilo Pets
@@ -188,6 +200,47 @@
     margin: auto;
     font-family: 'Cabin', sans-serif;
 }
+// jumbo style
+.backgroundbox {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assets/b.png');
+  background-size: cover;
+}
+.jumbo-script{
+  padding: 150px 300px 150px 20px;
+    color: white;
+}
+.jumbo-script p{
+margin-top: 20px;
+}
+.btn-jumbo {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+.custom-btn {
+      border-radius: 15px;
+      background-color: rgba(0,215,236,255);
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+.custom-btn-orange {
+      border-radius: 15px; 
+      background-color: rgba(206,124,42,255);
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 20px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      margin-right: 20px;
+    }
 
 /* sezione 1 */
 .Welcome-DogMilo-container{
