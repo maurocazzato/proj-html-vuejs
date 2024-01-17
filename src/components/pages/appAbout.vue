@@ -9,6 +9,18 @@ export default {
 </script>
 
 <template>
+      <!-- jumbo about -->
+  <div class="backgroundbox">
+        <div class="jumbo-script">
+            <h1>About Us</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          
+            <div class="btn-jumbo">
+                <button type="button" class="custom-btn"><i class="fa-regular fa-circle-play"></i></button>
+            </div>
+          </div>
+    </div>
+    
     <div class="welcome">
       <div class="text">
         <div class="head">
@@ -125,6 +137,38 @@ export default {
     font-family: 'Cabin', sans-serif;
    
 }
+// jumbo style
+.backgroundbox {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assets/banner4.png');
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.jumbo-script{
+  padding: 150px 300px 150px 20px;
+    color: white;
+}
+.jumbo-script p{
+margin-top: 20px;
+}
+.btn-jumbo {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+.custom-btn {
+      border-radius: 15px;
+      background-color: rgba(0,215,236,255);
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+    
     .welcome {
         display: flex;
         margin: auto;
