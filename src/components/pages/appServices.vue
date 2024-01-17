@@ -9,7 +9,17 @@ export default {
 </script>
 
 <template>
-    <h1>IO SONO APPSERVICES</h1>
+         <!-- jumbo about -->
+  <div class="backgroundbox">
+        <div class="jumbo-script">
+            <h1>Services</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          
+            <div class="btn-jumbo">
+                <button type="button" class="custom-btn"><i class="fa-regular fa-circle-play"></i></button>
+            </div>
+          </div>
+    </div>
 
     <section id="from 1500">
 
@@ -17,11 +27,11 @@ export default {
 
         <div class="service">
             <div class="card-img">
-                    <img src="../img/imgs/assets/vertical.png" alt="vertical dog">
+                    <img src="../../img/imgs/assets/vertical.png" alt="vertical dog">
             </div>
             <div class="text">
                 <div class="label">
-                    <img src="../img/imgs/assets/dog-icon.png" alt="icon">
+                    <img src="../../img/imgs/assets/dog-icon.png" alt="icon">
                     <h4>Service</h4>
                 </div>
                 <h2>Your Pet Our Passion</h2>
@@ -44,7 +54,7 @@ export default {
 
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/coathandler.png" alt="coat handler">
+                        <img src="../../img/imgs/assets/coathandler.png" alt="coat handler">
                     </div>
                     <h4>Coat Handler Pets</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
@@ -55,7 +65,7 @@ export default {
 
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/petsecurity.png" alt="pet security">
+                        <img src="../../img/imgs/assets/petsecurity.png" alt="pet security">
                     </div>
                     <h4>Pet Security</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
@@ -66,7 +76,7 @@ export default {
 
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/nightcare.png" alt="night care">
+                        <img src="../../img/imgs/assets/nightcare.png" alt="night care">
                     </div>
                     <h4>Night Care</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
@@ -77,7 +87,7 @@ export default {
 
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/dogwalking.png" alt="dog walking">
+                        <img src="../../img/imgs/assets/dogwalking.png" alt="dog walking">
                     </div>
                     <h4>Dog Walking</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
@@ -88,7 +98,7 @@ export default {
 
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/puppysitting.png" alt="image cardpuppy sitting">
+                        <img src="../../img/imgs/assets/puppysitting.png" alt="image cardpuppy sitting">
                     </div>
                     <h4>Puppy Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
@@ -99,7 +109,7 @@ export default {
 
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/petsitting.png" alt="Pet Sitting">
+                        <img src="../../img/imgs/assets/petsitting.png" alt="Pet Sitting">
                     </div>
                     <h4>Pet Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
@@ -113,7 +123,41 @@ export default {
 
 <style lang="scss" scoped>
 
+*{
+    font-family: 'Cabin', sans-serif;
+   
+}
+// jumbo style
+.backgroundbox {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assets/banner3.png');
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.jumbo-script{
+  padding: 150px 300px 150px 20px;
+    color: white;
+}
+.jumbo-script p{
+margin-top: 20px;
+}
+.btn-jumbo {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
 
+.custom-btn {
+      border-radius: 15px;
+      background-color: rgba(0,215,236,255);
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
 .service {
     width: 60%;
     margin: auto;
@@ -180,12 +224,13 @@ export default {
 
         .services-gallery {
             margin-top: 150px;
-
+            margin: auto;
             width: 100%;
             display: flex;
             flex-wrap: wrap;
 
             .card-services {
+                box-sizing: border-box;
                 background-color: white;
                 width: calc((100% / 3) - 25px );
                 padding: 25px;

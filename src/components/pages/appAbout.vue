@@ -9,10 +9,22 @@ export default {
 </script>
 
 <template>
+      <!-- jumbo about -->
+  <div class="backgroundbox">
+        <div class="jumbo-script">
+            <h1>About Us</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          
+            <div class="btn-jumbo">
+                <button type="button" class="custom-btn"><i class="fa-regular fa-circle-play"></i></button>
+            </div>
+          </div>
+    </div>
+    
     <div class="welcome">
       <div class="text">
         <div class="head">
-            <img src="../img/imgs/assets/dog-icon.png" alt="dog-icon">
+            <img src="../../img/imgs/assets/dog-icon.png" alt="dog-icon">
             <div class="dogmilo">About DogMilo</div>
         </div>
 
@@ -22,7 +34,7 @@ export default {
              magnam in deleniti blanditiis veniam autem dignissimos delectus.</p>
       </div>
       <div class="right-image">
-          <img src="../img/imgs/assets/duecani.png" alt="two dogs">
+          <img src="../../img/imgs/assets/duecani.png" alt="two dogs">
       </div>
 
     </div>
@@ -34,13 +46,13 @@ export default {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum, tenetur sapiente facere eaque ad repellat officiis non error pariatur! Tempora quis ipsam, deleniti illum et ducimus nisi error praesentium?</p>
                 </div>
                 <div class="card-img">
-                    <img src="../img/imgs/assets/ourmission.png" alt="our mission">
+                    <img src="../../img/imgs/assets/ourmission.png" alt="our mission">
                 </div>         
             </div>
 
             <div class="card">
                 <div class="card-img">
-                    <img src="../img/imgs/assets/ourvision.png" alt="our vision">
+                    <img src="../../img/imgs/assets/ourvision.png" alt="our vision">
                 </div> 
                 <div class="pres-texts">
                 <h3>Our Vision</h3>
@@ -54,7 +66,7 @@ export default {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum, tenetur sapiente facere eaque ad repellat officiis non error pariatur! Tempora quis ipsam, deleniti illum et ducimus nisi error praesentium?</p>
                 </div>
                 <div class="card-img">
-                    <img src="../img/imgs/assets/ourvalue.png" alt="our value">
+                    <img src="../../img/imgs/assets/ourvalue.png" alt="our value">
                 </div>         
             </div>                      
     </div>
@@ -64,21 +76,21 @@ export default {
         <h2>DogMilo Pet Care Story
         For Your Best Friends.</h2>
         <div class="card-video">
-            <img src="../img/imgs/assets/video-bg.png" alt="video">
-            <img src="../img/imgs/assets/play.png" alt="play" class="player">
+            <img src="../../img/imgs/assets/video-bg.png" alt="video">
+            <img src="../../img/imgs/assets/play.png" alt="play" class="player">
         </div>
     </div>
 
     <div class="fresh-healty">
         <div class="card-image">
-            <img src="../img/imgs/assets/fresh&healtyleft.png" alt="fresh&healty food">
+            <img src="../../img/imgs/assets/fresh&healtyleft.png" alt="fresh&healty food">
         </div>
         
         <div class="texts">
             <h2>Fresh & Healty Food</h2>
             <div class="label">
                 <div class="label-img">
-                    <img src="../img/imgs/assets/petfood.png" alt="Pet Food">
+                    <img src="../../img/imgs/assets/petfood.png" alt="Pet Food">
                 </div>
                 <div>
                     <h4>Pet Food</h4>
@@ -89,7 +101,7 @@ export default {
             </div>
             <div class="label">
                 <div class="label-img">
-                    <img src="../img/imgs/assets/petaccessories.png" alt="Pet Accessories">
+                    <img src="../../img/imgs/assets/petaccessories.png" alt="Pet Accessories">
                 </div>
                 <div>
                     <h4>Pet Accessories</h4>
@@ -100,7 +112,7 @@ export default {
             </div>
             <div class="label">
                 <div class="label-img">
-                    <img src="../img/imgs/assets/petclothes.png" alt="Pet Clothes">
+                    <img src="../../img/imgs/assets/petclothes.png" alt="Pet Clothes">
                 </div>
                 <div>
                     <h4>Pet Clothes</h4>
@@ -121,6 +133,42 @@ export default {
 
 
 <style lang="scss" scoped>
+*{
+    font-family: 'Cabin', sans-serif;
+   
+}
+// jumbo style
+.backgroundbox {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assets/banner4.png');
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.jumbo-script{
+  padding: 150px 300px 150px 20px;
+    color: white;
+}
+.jumbo-script p{
+margin-top: 20px;
+}
+.btn-jumbo {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+.custom-btn {
+      border-radius: 15px;
+      background-color: rgba(0,215,236,255);
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+    
     .welcome {
         display: flex;
         margin: auto;
@@ -236,17 +284,24 @@ export default {
             .label {
                 display: flex;
                 align-items: center;
+                margin-top: 20px;
 
                 h4 {
                     padding: 0;
                 }
                 .label-img {
-                    width: 150px;
+                    width: 125px;
                     margin-right: 15px;
                     border-radius: 50%;
                     background-color: #7f7045;
                     padding: 15px;
+
+                    img {
+                        max-width: 100%;
+
+                    }
                 }
+
             }
         }
 
