@@ -60,10 +60,22 @@ export default {
             </div>                      
     </div>
 
+    <div class="our-story">
+        <h6>Our Story</h6>
+        <h2>DogMilo Pet Care Story
+        For Your Best Friends.</h2>
+        <div class="card-video">
+            <img src="../img/imgs/assets/hqdefault.jpg" alt="video">
+            <img src="../img/imgs/assets/play.png" alt="play" class="player">
+        </div>
+    </div>
+
 </template>
 
 
 <style lang="scss" scoped>
+
+@use '../styles/general';
     .welcome {
         display: flex;
         margin: auto;
@@ -118,4 +130,31 @@ export default {
         width: 100%;
     }
 
+    // Sezione our Story con video 
+    .our-story {
+        width: 60%;
+        margin: auto;
+
+        h6 {
+            color: #7f7045;
+        }
+        h2, h6 {
+            text-align: center;
+        }
+        .card-video {
+            width: 100%;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+            .player {
+                width: 10%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
 </style>
