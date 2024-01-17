@@ -18,7 +18,7 @@
 
 
 
-  <main>
+<main>
 
 <!-- io lo dividerei in 4 sezioni
    1) Welcome DogMilo Pets
@@ -70,7 +70,7 @@
                     <i class="fa-solid fa-angle-right"></i>
                 </button>
             </div> -->
-<!--
+            <!--
             <div id="service-two">
                 <img class="image-service" src="../img/imgs/assets/d-2.png" alt="">
                 <h5 class="service-title">Pet Security</h5>
@@ -155,6 +155,24 @@
     </div>
  </section>
 
+ <!-- 4) Over 8000 Customers With 5-star Reviews -->
+ <section id="costumers-reviews">
+  <div class="container costumers-reviews-container">
+    <!-- sono due blocchetti, il secondo al suo interno ne ha altri due-->
+    <!-- blocchetto 1 -->
+    <div class="container blocco1-container">
+      <p>Review & Rating</p>
+      <h1>Over 8000 Customers With 5-star Reviews</h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+    </div>
+    <div class="container blocco2-container">
+      
+    </div>
+    <div class="container blocco3-container">
+      
+    </div>
+  </div>
+ </section>
 
 
 </main>
@@ -166,11 +184,10 @@
 *{
     width: 50vw;
     margin: auto;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
 }
 
 /* sezione 1 */
-
 .Welcome-DogMilo-container{
     width: 100%;
     /* background-color: lightblue; */
@@ -211,8 +228,6 @@
 
 }
 
-
-
 /* sezione 2 */
 .Pet-Care-container{
     text-align: center;
@@ -233,9 +248,9 @@
         width: 50%;
        }
     }
-
 }
 
+// seione 3
 .why-us-container{
 
   // display: flex;
@@ -250,7 +265,7 @@
     #chooseus-why-list{
       margin-top: -60%;
       margin-right: -50%;
-      margin-bottom: 50%;
+      margin-bottom: 10%;
 
         h1{
         font-size: 3rem;
@@ -260,17 +275,36 @@
         //  display: flex;
         margin-bottom: 40px;
 
-              h3{
-                font-size: 1.5rem;
-              }
+            h3{
+              font-size: 1.5rem;
+            }
 
-              img{
-                width: 10%;
-              }
+            img{
+              width: 10%;
             }
         }
     }
+}
 
+.costumers-reviews-container{
+  width: 50vw;
+  height: 300px;
+  // margin-left: -50%;
+  display: flex ;
+  // debugging
+  background-color: lightblue;
 
+  .blocco1-container, .blocco2-container, .blocco3-container{
+    width: 33%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+
+    // debugging
+    background-color: lightpink;
+    border: 1px solid black;
+  }
+
+}
 
 </style>
