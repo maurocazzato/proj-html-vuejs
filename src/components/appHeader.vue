@@ -32,8 +32,8 @@ export default {
             <div><img src="../assets/logo.png" alt=""></div>
             <nav>
                 <router-link :to="{name: 'appHome'}">Home</router-link>
-                <router-link :to="{name: 'appHome'}">About</router-link>
-                <router-link :to="{name: 'appHome'}">Service</router-link>
+                <router-link :to="{name: 'appAbout'}">About</router-link>
+                <router-link :to="{name: 'appServices'}">Services</router-link>
             </nav>
             <div class="hamburger-menu" onclick="toggleNav()">
                 <div>

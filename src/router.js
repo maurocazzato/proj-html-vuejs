@@ -23,7 +23,7 @@ component: appAbout
 {
     path: '/Services'
     ,
-    name: 'appService'
+    name: 'appServices'
     ,
     component: appServices
     },
