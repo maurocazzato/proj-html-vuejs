@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div>Io sono appServices</div>
+    <h1>IO SONO APPSERVICES</h1>
 
     <section id="from 1500">
 
@@ -42,15 +42,57 @@ export default {
 
     <section id="pet-care-services">
         <div class="container-services">
+            <h4>Service</h4>
             <h2>DogMilo Pet Care Services
             For Your Best Friends.</h2>
             <div class="services-gallery">
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/image (7).svg" alt="image card">
+                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
                     </div>
                     <h4>Coat Handler Pets</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
+                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                </div>
+                <div class="card-services">
+                    <div class="card-image">
+                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                    </div>
+                    <h4>Coat Handler Pets</h4>
+                    <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
+                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                </div>
+                <div class="card-services">
+                    <div class="card-image">
+                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                    </div>
+                    <h4>Coat Handler Pets</h4>
+                    <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
+                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                </div>
+                <div class="card-services">
+                    <div class="card-image">
+                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                    </div>
+                    <h4>Coat Handler Pets</h4>
+                    <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
+                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                </div>
+                <div class="card-services">
+                    <div class="card-image">
+                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                    </div>
+                    <h4>Coat Handler Pets</h4>
+                    <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
+                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                </div>
+                <div class="card-services">
+                    <div class="card-image">
+                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                    </div>
+                    <h4>Coat Handler Pets</h4>
+                    <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
+                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
             </div>
         </div>
@@ -115,34 +157,66 @@ export default {
 }
 // Sezione pet care services  
 #pet-care-services {
+    margin-top: 150px;
     width: 100%;
     background-color: #f5f5f5;
+    padding-bottom: 150px;
 
     .container-services {
         width: 60%;
         margin: auto;
 
-    }
-    .services-gallery {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        .card-services {
-            width: calc((100% / 3) - 25px );
+        h4 {
+            color: #7f7045;
+            text-align: center;
+            padding-top: 25px;
+        }
 
-        .card-services:hover {
-            background-color: #7f7045;
-        }    
-            .card-image {
-                width: 40%;
-                border-radius: 50%;
-                img {
-                    width: 100%;
+        h2 {
+            text-align: center;
+            padding-top: 25px;
+            margin: auto;
+        }
+
+        .services-gallery {
+            margin-top: 150px;
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .card-services {
+                background-color: white;
+                width: calc((100% / 3) - 25px );
+                padding: 25px;
+
+                &:hover {
+                    background-color: #7f7045;
+                    color: white;
                 }
+                #arrow-up {
+                    color: white;
+                    background-color: #7f7045;
+                    font-size: 15px;
+                }
+
+                .card-image {
+                    width: 50%;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+
+                }
+                h4, .caption {
+                    text-align: center;
+                }
+
             }
         }
     }
-
 }
 
 </style>

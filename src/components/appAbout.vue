@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div>Io sono appAbout</div>
+    <h1>IO SONO APPABOUT</h1>
     <div class="welcome">
       <div class="text">
         <div class="head">
