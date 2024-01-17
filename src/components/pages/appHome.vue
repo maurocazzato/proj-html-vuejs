@@ -48,10 +48,12 @@
             <div id="P-container">
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p>short lorem ipsum idea</p>
               <br>
 
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p>short lorem ipsum idea</p>
             </div>
 
         </div>
@@ -288,6 +290,7 @@ margin-top: 20px;
         height: 500px;
 
         #P-container{
+          line-height: 30px;
           margin-right: 1003px;
         }
     }
