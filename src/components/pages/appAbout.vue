@@ -121,6 +121,10 @@ export default {
 
 
 <style lang="scss" scoped>
+*{
+    font-family: 'Cabin', sans-serif;
+   
+}
     .welcome {
         display: flex;
         margin: auto;
