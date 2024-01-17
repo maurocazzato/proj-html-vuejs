@@ -19,17 +19,6 @@
           </div>
     </div>
 
-  <!-- io lo dividerei in 4 sezioni
-      1) Welcome DogMilo Pets
-      2) DogMilo Pet Care Services For Your Best Friends.
-      3) Why Choose Us?
-      4) Over 8000 Customers With 5-star Reviews
-
-      Ci sara ovviamente una foto di Carmen. quella laterale nella seconda sezione
-  -->
-
-
-
 <main>
 
 <!-- io lo dividerei in 4 sezioni
@@ -57,8 +46,12 @@
             <h3> <i class="fa-solid fa-paw" style="color: #ffaa00;"></i> about us</h3>
             <h1>Welcome DogMilo Pets</h1>
             <div id="P-container">
-              <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+              <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <br>
+
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
 
         </div>
@@ -73,41 +66,53 @@
         <p>Services</p>
         <h1>DogMilo Pet Care Services </h1>
         <h1>For Your Best Friends.</h1>
+        
         <div class="five-service">
-            <div class="service-one">
-                <img class="image-service" src="../../img/imgs/assets/d-1.png" alt="">
-                <!-- <h1 class="service-title"> hola sono h5 di sercive 1</h1>
-                <p>The standard chunk of Lorem Ipsum used since.</p> -->
-                
-            </div>
-            
-            <div id="service-two">
-                <img class="image-service" src="../../img/imgs/assets/d-2.png" alt="">
-                <!-- <h5 class="service-title">Pet Security</h5>
-                <p>The standard chunk of Lorem Ipsum used since.</p> -->
-                
-            </div>
-
-            <div id="service-three">
-                <img class="image-service" src="../../img/imgs/assets/d-4.png" alt="">
-                <!-- <h5 class="service-title">Night Care</h5>
-                <p>The standard chunk of Lorem Ipsum used since</p> -->
-                
-            </div>
-
-            <div id="service-four">
-                <img class="image-service" src="../../img/imgs/assets/d-3.png" alt="">
-                <!-- <h5 class="service-title">Dog Security</h5>
-                <p>The standard chunk of Lorem Ipsum used since.</p> -->
-                
-            </div>
-
-            <div id="service-five">
-                <img class="image-service" src="../../img/imgs/assets/d-5.png" alt="">
-                <!-- <h5 class="service-title">Puppy Sitting</h5>
-                <p>The standard chunk of Lorem Ipsum used since.</p> -->
+            <div class="service">
+              <div class="service-text">
+                <h3 class="service-title">Pet Security</h3> 
+                <p>Lorem Ipsum used since.</p>
+                <p>Lorem Ipsum used since.</p>
+                <img src="../../img/imgs/assets/right.png" alt="">
+              </div>
                
             </div>
+
+            <div class="service">
+              <div class="service-text">
+                <h3 class="service-title">Night Care</h3> 
+                <p>Lorem Ipsum used since.</p>
+                <p>Lorem Ipsum used since.</p>
+                <img src="../../img/imgs/assets/right.png" alt="">
+              </div>
+            </div>
+
+            <div class="service">
+              <div class="service-text">
+                <h3 class="service-title">Puppy Sitting</h3> 
+                <p>Lorem Ipsum used since.</p>
+                <p>Lorem Ipsum used since.</p>
+                <img src="../../img/imgs/assets/right.png" alt="">
+              </div>
+            </div>
+
+            <div class="service">
+              <div class="service-text">
+                <h3 class="service-title">Coat Handler Pets</h3> 
+                <p>Lorem Ipsum used since.</p>
+                <p>Lorem Ipsum used since.</p>
+                <img src="../../img/imgs/assets/right.png" alt="">
+              </div>
+            </div>
+
+            <div class="service">
+              <div class="service-text">
+                <h3 class="service-title">Coat Handler Pets</h3> 
+                <p>Lorem Ipsum used since.</p>
+                <p>Lorem Ipsum used since.</p>
+                <img src="../../img/imgs/assets/right.png" alt="">
+              </div>
+            </div> 
         </div>
     </div>
 
@@ -162,18 +167,33 @@
   <div class="container costumers-reviews-container">
     <!-- sono due blocchetti, il secondo al suo interno ne ha altri due-->
     <!-- blocchetto 1 -->
-    <div class="container blocco1-container">
+    <div class="container blocco-container">
       <div class="text-container">
         <p>Review & Rating</p>
-        <h1>Over 8000 Customers With 5-star Reviews</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+        <h1>Over 8000 Customers </h1>
+        <h1>With 5-star Reviews</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </div>
-    <div class="container blocco2-container">
-      
+    <div class="container blocco-container">
+      <div class="text-container">
+        <br>
+        <h1>Grate Place</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
     </div>
-    <div class="container blocco3-container">
-      
+    <div class="container blocco-container">
+      <div class="text-container">
+        <br>
+        <h1>Over 8000 Customers </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
     </div>
   </div>
  </section>
@@ -238,6 +258,7 @@ margin-top: 20px;
     /* background-color: lightblue; */
     border: 0;
     display: flex;
+    justify-content: center;
     justify-content: space-around;
 
     /* debugging */
@@ -246,7 +267,7 @@ margin-top: 20px;
     .cardleft{
     width: 50%;
     height: 500px;
-    margin-left: -20%;
+    // margin-left: 20%;
 
       .image{
           width: 100%;
@@ -259,8 +280,8 @@ margin-top: 20px;
 
 
     .textCard{
-
-        margin-top: 5%;
+        margin-left: 10%;
+        margin-top: 10%;
         /* background-color: lightgreen; */
         max-width: 50%;
         /* debugging */
@@ -279,25 +300,38 @@ margin-top: 20px;
     
 
     .five-service{
+      width: 100%;
+      margin: auto;
+      // background-color: aqua;
       display: flex;
       justify-content: center;
       
-      .service-one, .service-two, .service-three, .service-four, .service-five{
-      background-color: #ce7c2a;
-      width: 20%;
-      margin-left: 10px;
-      margin-right: 10px;
-
-      color: white;
-      /* text-align: center; */
-      padding: 2%;
-      border-radius: 45%;
       
+      .service{
+        background-color: #ce7c2a;
+        min-width: 20%;
+        min-height: 100px;
+        margin-left: 10px;
+        margin-top: 20px;
+        /* text-align: center; */
+        padding: 2%;
+        border-radius: 45%;
+        
 
-      .image-service{
-        width: 50%;
-       }
-    }
+        .service-text{
+          padding: 10px;
+          width: 40%;
+          margin-left: -200%;
+
+          img{
+            margin-left: 620%;
+            margin-top: 10px;
+            width: 20px;
+          }
+        }
+
+
+     }
   }
 }
 
@@ -338,25 +372,32 @@ margin-top: 20px;
 }
 
 .costumers-reviews-container{
-  width: 50vw;
+  width: 80%;
   height: 300px;
   // margin-left: -50%;
   display: flex ;
   // debugging
-  background-color: lightblue;
+  // background-color: lightblue;
 
-  .blocco1-container, .blocco2-container, .blocco3-container{
-    max-width: 33%;
-    height: 100%;
+  .blocco-container{
+    min-width: 50%;
     margin: auto;
-    text-align: center;
-
+    margin-left: -15%;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10090px;
+    
     // debugging
-    background-color: lightpink;
-    border: 1px solid black;
+    // background-color: lightpink;
 
     .text-container{
-      background-color: #ce7c2a;
+
+      line-height: 20px;
+      h1{
+        font-size: 2rem;
+        line-height: 50px;
+      }
     }
   }
 }
