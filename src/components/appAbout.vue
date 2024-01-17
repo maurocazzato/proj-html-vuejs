@@ -70,6 +70,54 @@ export default {
         </div>
     </div>
 
+    <div class="fresh-healty">
+        <div class="card-image">
+            <img src="../img/imgs/assets/t1.png" alt="fresh&healty food">
+        </div>
+        
+        <div class="texts">
+            <h2>Fresh & Healty Food</h2>
+            <div class="label">
+                <div class="label-img">
+                    <img src="../img/imgs/assets/w-1.png" alt="Pet Food">
+                </div>
+                <div>
+                    <h4>Pet Food</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                </div>
+            </div>
+            <div class="label">
+                <div class="label-img">
+                    <img src="../img/imgs/assets/w-1.png" alt="Pet Food">
+                </div>
+                <div>
+                    <h4>Pet Accessories</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                </div>
+            </div>
+            <div class="label">
+                <div class="label-img">
+                    <img src="../img/imgs/assets/w-1.png" alt="Pet Food">
+                </div>
+                <div>
+                    <h4>Pet Clothes</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
 </template>
 
 
@@ -134,6 +182,7 @@ export default {
     .our-story {
         width: 60%;
         margin: auto;
+        margin-top: 100px;
 
         h6 {
             color: #7f7045;
@@ -157,4 +206,50 @@ export default {
             }
         }
     }
+
+    .fresh-healty {
+        margin-top: 100px;
+        width: 70%;
+        margin-left: 29%;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .card-image {
+
+
+            margin-left: -120px;
+            margin-top: 80px;
+            width: 30% ;
+
+            img {
+                width: 100%;
+            }
+        }
+        h2, .label {
+            padding-left: 15px;
+        }
+        .texts {
+            width: 70%;
+            padding: 15px;
+            padding-left: 120px;
+
+            .label {
+                display: flex;
+                align-items: center;
+
+                h4 {
+                    padding: 0;
+                }
+                .label-img {
+                    width: 80px;
+                    margin-right: 15px;
+                }
+            }
+        }
+
+    }
+
+
 </style>
