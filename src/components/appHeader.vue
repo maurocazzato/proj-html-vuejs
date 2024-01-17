@@ -51,6 +51,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+*{
+    font-family: 'Cabin', sans-serif;
+   
+}
 
 
 .header {

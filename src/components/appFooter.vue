@@ -93,6 +93,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+*{
+    font-family: 'Cabin', sans-serif;
+   
+}
        /* footer style */
         footer {
             background-color: black;
