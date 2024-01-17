@@ -197,7 +197,7 @@ export default {
                 #arrow-up {
                     color: white;
                     background-color: #7f7045;
-                    font-size: 15px;
+                    font-size: 50px;
                 }
 
                 .card-image {

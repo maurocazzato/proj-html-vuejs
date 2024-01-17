@@ -9,11 +9,10 @@ export default {
 </script>
 
 <template>
-    <h1>IO SONO APPABOUT</h1>
     <div class="welcome">
       <div class="text">
         <div class="head">
-            <img src="../img/imgs/assets/dog-icon.png" alt="dog-icon">
+            <img src="../img/imgs/assets/" alt="dog-icon">
             <div class="dogmilo">About DogMilo</div>
         </div>
 
