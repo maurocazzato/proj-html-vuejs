@@ -39,7 +39,7 @@
 
     <!-- <div class="cardright"></div> -->
         <div class="cardleft">
-            <img class="image" src="../img/imgs/assets/IMG_3129.JPG" alt="">
+            <img class="image" src="../../img/imgs/assets/IMG_3129.JPG" alt="">
         </div>
         <div class="textCard">
             <h3> <i class="fa-solid fa-paw" style="color: #ffaa00;"></i> about us</h3>
@@ -62,50 +62,40 @@
         <h1>DogMilo Pet Care Services </h1>
         <h1>For Your Best Friends.</h1>
         <div class="five-service">
-            <!-- <div class="service-one">
-                <img class="image-service" src="../img/imgs/assets/d-1.png" alt="">
-                <h1 class="service-title"> hola sono h5 di sercive 1</h1>
-                <p>The standard chunk of Lorem Ipsum used since.</p>
-                <button type="button" class="btn btn-warning">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
-            </div> -->
-            <!--
+            <div class="service-one">
+                <img class="image-service" src="../../img/imgs/assets/d-1.png" alt="">
+                <!-- <h1 class="service-title"> hola sono h5 di sercive 1</h1>
+                <p>The standard chunk of Lorem Ipsum used since.</p> -->
+                
+            </div>
+            
             <div id="service-two">
-                <img class="image-service" src="../img/imgs/assets/d-2.png" alt="">
-                <h5 class="service-title">Pet Security</h5>
-                <p>The standard chunk of Lorem Ipsum used since.</p>
-                <button type="button" class="btn btn-warning">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
+                <img class="image-service" src="../../img/imgs/assets/d-2.png" alt="">
+                <!-- <h5 class="service-title">Pet Security</h5>
+                <p>The standard chunk of Lorem Ipsum used since.</p> -->
+                
             </div>
 
             <div id="service-three">
-                <img class="image-service" src="../img/imgs/assets/d-4.png" alt="">
-                <h5 class="service-title">Night Care</h5>
-                <p>The standard chunk of Lorem Ipsum used since</p>
-                <button type="button" class="btn btn-warning">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
+                <img class="image-service" src="../../img/imgs/assets/d-4.png" alt="">
+                <!-- <h5 class="service-title">Night Care</h5>
+                <p>The standard chunk of Lorem Ipsum used since</p> -->
+                
             </div>
 
             <div id="service-four">
-                <img class="image-service" src="../img/imgs/assets/d-3.png" alt="">
-                <h5 class="service-title">Dog Security</h5>
-                <p>The standard chunk of Lorem Ipsum used since.</p>
-                <button type="button" class="btn btn-warning">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
+                <img class="image-service" src="../../img/imgs/assets/d-3.png" alt="">
+                <!-- <h5 class="service-title">Dog Security</h5>
+                <p>The standard chunk of Lorem Ipsum used since.</p> -->
+                
             </div>
 
             <div id="service-five">
-                <img class="image-service" src="../img/imgs/assets/d-5.png" alt="">
-                <h5 class="service-title">Puppy Sitting</h5>
-                <p>The standard chunk of Lorem Ipsum used since.</p>
-                <button type="button" class="btn btn-warning">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
-            </div> -->
+                <img class="image-service" src="../../img/imgs/assets/d-5.png" alt="">
+                <!-- <h5 class="service-title">Puppy Sitting</h5>
+                <p>The standard chunk of Lorem Ipsum used since.</p> -->
+               
+            </div>
         </div>
     </div>
 
@@ -116,7 +106,7 @@
 
     <div class="container why-us-container">
       <div id="immagine-lato">
-        <img id="carmen-sideimage" src="../img/imgs/assets/carmen.jpg" alt="">
+        <img id="carmen-sideimage" src="../../img/imgs/assets/carmen.jpg" alt="">
       </div>
 
       <div id="chooseus-why-list">
@@ -124,7 +114,7 @@
         <h1 id="why-title">Why choose us</h1>
         <div id="why-one">
         <div class="why-image">
-          <img src="../img/imgs/assets/w-3.png" alt="">
+          <img src="../../img/imgs/assets/w-3.png" alt="">
         </div>
           <div>
             <h3>safty first</h3>
@@ -134,7 +124,7 @@
 
         <div id="why-two">
         <div class="why-image">
-          <img src="../img/imgs/assets/w-2.png" alt="">
+          <img src="../../img/imgs/assets/w-2.png" alt="">
         </div>
           <div>
             <h3>Play Yards</h3>
@@ -144,7 +134,7 @@
 
         <div id="why-three">
         <div class="why-image">
-          <img src="../img/imgs/assets/w-1.png" alt="">
+          <img src="../../img/imgs/assets/w-1.png" alt="">
         </div>
           <div>
             <h3>Monitor Your Pet </h3>
@@ -233,8 +223,13 @@
 /* sezione 2 */
 .Pet-Care-container{
     text-align: center;
+    
 
-    .service-one{
+    .five-service{
+      display: flex;
+      justify-content: center;
+      
+      .service-one, .service-two, .service-three, .service-four, .service-five{
       background-color: #ce7c2a;
       width: 20%;
       margin-left: 10px;
@@ -244,12 +239,13 @@
       /* text-align: center; */
       padding: 2%;
       border-radius: 45%;
-      line-height: 30px;
+      
 
       .image-service{
         width: 50%;
        }
     }
+  }
 }
 
 // seione 3
