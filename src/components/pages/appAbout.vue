@@ -121,8 +121,6 @@ export default {
 
 
 <style lang="scss" scoped>
-
-@use '../styles/general';
     .welcome {
         display: flex;
         margin: auto;

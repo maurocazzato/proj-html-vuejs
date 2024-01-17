@@ -93,7 +93,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/general';
        /* footer style */
         footer {
             background-color: black;

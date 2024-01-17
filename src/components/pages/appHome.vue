@@ -162,6 +162,7 @@
 
 <style lang="scss" scoped>
 
+
 *{
     width: 50vw;
     margin: auto;
