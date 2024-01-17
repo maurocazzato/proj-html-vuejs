@@ -9,10 +9,11 @@ export default {
 </script>
 
 <template>
+    <h1>IO SONO APPABOUT</h1>
     <div class="welcome">
       <div class="text">
         <div class="head">
-            <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\dog-icon.png" alt="dog-icon">
+            <img src="../img/imgs/assets/dog-icon.png" alt="dog-icon">
             <div class="dogmilo">About DogMilo</div>
         </div>
 
@@ -22,7 +23,7 @@ export default {
              magnam in deleniti blanditiis veniam autem dignissimos delectus.</p>
       </div>
       <div class="right-image">
-          <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\duecani.png" alt="two dogs">
+          <img src="../img/imgs/assets/about.png" alt="two dogs">
       </div>
 
     </div>
@@ -34,13 +35,13 @@ export default {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum, tenetur sapiente facere eaque ad repellat officiis non error pariatur! Tempora quis ipsam, deleniti illum et ducimus nisi error praesentium?</p>
                 </div>
                 <div class="card-img">
-                    <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\ourmission.png" alt="our mission">
+                    <img src="../img/imgs/assets/w-1.png" alt="img 1">
                 </div>         
             </div>
 
             <div class="card">
                 <div class="card-img">
-                    <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\ourvision.png" alt="our vision">
+                    <img src="../img/imgs/assets/w-2.png" alt="img 1">
                 </div> 
                 <div class="pres-texts">
                 <h3>Our Vision</h3>
@@ -54,7 +55,7 @@ export default {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum, tenetur sapiente facere eaque ad repellat officiis non error pariatur! Tempora quis ipsam, deleniti illum et ducimus nisi error praesentium?</p>
                 </div>
                 <div class="card-img">
-                    <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\ourvalue.png" alt="our value">
+                    <img src="../img/imgs/assets/w-3.png" alt="img 1">
                 </div>         
             </div>                      
     </div>
@@ -64,21 +65,21 @@ export default {
         <h2>DogMilo Pet Care Story
         For Your Best Friends.</h2>
         <div class="card-video">
-            <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\video-bg.png" alt="video">
-            <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\play.png" alt="play" class="player">
+            <img src="../img/imgs/assets/hqdefault.jpg" alt="video">
+            <img src="../img/imgs/assets/play.png" alt="play" class="player">
         </div>
     </div>
 
     <div class="fresh-healty">
         <div class="card-image">
-            <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\fresh&healtyleft.png" alt="fresh&healty food">
+            <img src="../img/imgs/assets/t1.png" alt="fresh&healty food">
         </div>
         
         <div class="texts">
             <h2>Fresh & Healty Food</h2>
             <div class="label">
                 <div class="label-img">
-                    <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\petfood.png" alt="Pet Food">
+                    <img src="../img/imgs/assets/w-1.png" alt="Pet Food">
                 </div>
                 <div>
                     <h4>Pet Food</h4>
@@ -89,7 +90,7 @@ export default {
             </div>
             <div class="label">
                 <div class="label-img">
-                    <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\petaccessories.png" alt="Pet Accessories">
+                    <img src="../img/imgs/assets/w-1.png" alt="Pet Food">
                 </div>
                 <div>
                     <h4>Pet Accessories</h4>
@@ -100,7 +101,7 @@ export default {
             </div>
             <div class="label">
                 <div class="label-img">
-                    <img src="C:\Coding\proj-html-vuejs\src\img\imgs\assets\petclothes.png" alt="Pet Clothes">
+                    <img src="../img/imgs/assets/w-1.png" alt="Pet Food">
                 </div>
                 <div>
                     <h4>Pet Clothes</h4>
@@ -121,6 +122,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
     .welcome {
         display: flex;
         margin: auto;
@@ -241,16 +243,8 @@ export default {
                     padding: 0;
                 }
                 .label-img {
+                    width: 80px;
                     margin-right: 15px;
-                    border-radius: 50%;
-                    background-color: #7f7045;
-                    padding: 15px;
-
-                    img {
-                        width: 150px;
-                        margin-right: 15px;
-                        border-radius: 50%;
-                    }
                 }
             }
         }
