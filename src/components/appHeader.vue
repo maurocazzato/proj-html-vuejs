@@ -51,6 +51,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/general';
 
 .header {
     background-color: rgba(127,112,69,255);
