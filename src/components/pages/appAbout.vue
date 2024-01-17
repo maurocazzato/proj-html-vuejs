@@ -240,17 +240,24 @@ export default {
             .label {
                 display: flex;
                 align-items: center;
+                margin-top: 20px;
 
                 h4 {
                     padding: 0;
                 }
                 .label-img {
-                    width: 150px;
+                    width: 125px;
                     margin-right: 15px;
                     border-radius: 50%;
                     background-color: #7f7045;
                     padding: 15px;
+
+                    img {
+                        max-width: 100%;
+
+                    }
                 }
+
             }
         }
 
