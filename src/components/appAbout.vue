@@ -215,6 +215,7 @@ export default {
         display: flex;
         justify-content: space-between;
         position: relative;
+        margin-bottom: 250px;
 
         .card-image {
 
