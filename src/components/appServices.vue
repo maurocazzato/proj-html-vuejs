@@ -17,14 +17,7 @@ export default {
 
         <div class="service">
             <div class="card-img">
-                <div class="rectangle-left">
-                    <div class="rectangle"></div>
-                </div>
-                <div class="right">
-                    <div class="square"></div>
-                    <div class="square"></div>
-                </div>
-
+                    <img src="../img/imgs/assets/vertical.png" alt="vertical dog">
             </div>
             <div class="text">
                 <div class="label">
@@ -46,51 +39,69 @@ export default {
             <h2>DogMilo Pet Care Services
             For Your Best Friends.</h2>
             <div class="services-gallery">
+
+                <!-- Coat Handler  -->
+
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                        <img src="../img/imgs/assets/coathandler.png" alt="coat handler">
                     </div>
                     <h4>Coat Handler Pets</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
                     <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
+
+                <!-- Pet Security   -->
+
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                        <img src="../img/imgs/assets/petsecurity.png" alt="pet security">
                     </div>
-                    <h4>Coat Handler Pets</h4>
+                    <h4>Pet Security</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
                     <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
+
+                <!-- Night Care  -->
+
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                        <img src="../img/imgs/assets/nightcare.png" alt="night care">
                     </div>
-                    <h4>Coat Handler Pets</h4>
+                    <h4>Night Care</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
                     <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
+
+                <!-- Dog Walking  -->
+
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                        <img src="../img/imgs/assets/dogwalking.png" alt="dog walking">
                     </div>
-                    <h4>Coat Handler Pets</h4>
+                    <h4>Dog Walking</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
                     <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
+
+                <!-- Puppy Sitting  -->
+
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                        <img src="../img/imgs/assets/puppysitting.png" alt="image cardpuppy sitting">
                     </div>
-                    <h4>Coat Handler Pets</h4>
+                    <h4>Puppy Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
                     <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
+
+                <!-- Pet Sitting  -->
+
                 <div class="card-services">
                     <div class="card-image">
-                        <img src="../img/imgs/assets/IMG_3129.JPG" alt="image card">
+                        <img src="../img/imgs/assets/petsitting.png" alt="Pet Sitting">
                     </div>
-                    <h4>Coat Handler Pets</h4>
+                    <h4>Pet Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
                     <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
@@ -120,16 +131,7 @@ export default {
         flex-basis: 40%;
         display: flex;
         box-sizing: border-box;
-        .rectangle-left {
-            flex-basis: 50%;
-            padding-right: 25px;
 
-        }
-        .rectangle {
-            width: 100%;
-            height: 350px;
-            background-color: blue;
-        }
         .right {
             flex-basis: 50%;
         }
