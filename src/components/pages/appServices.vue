@@ -112,7 +112,10 @@ export default {
 
 <style lang="scss" scoped>
 
-
+*{
+    font-family: 'Cabin', sans-serif;
+   
+}
 
 .service {
     width: 60%;
