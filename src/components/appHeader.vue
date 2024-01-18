@@ -51,6 +51,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../src/styles/_general.scss' as *;
+
 *{
     font-family: 'Cabin', sans-serif;
    
