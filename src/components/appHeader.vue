@@ -26,6 +26,7 @@ export default {
 
 <template>
      <section>
+        <!-- header marraconcino con contatti e icone social -->
         <div class="header">
             <div class="contact-info">
                 <div><i class="fa-solid fa-envelope"></i> Info@example.com</div>
@@ -40,7 +41,7 @@ export default {
             </div>
         </div>
        
-
+        <!-- parte inferiore header con logo e menu navigabile -->
         <div class="logo-container">
             <div><img src="../assets/logo.png" alt=""></div>
             <nav>
@@ -48,7 +49,7 @@ export default {
                 <router-link :to="{name: 'appAbout'}">About</router-link>
                 <router-link :to="{name: 'appServices'}">Services</router-link>
             </nav>
-
+        <!-- hamburher menu navigabile -->
             <div class="hamburger-menu" @click="toggleNav">
                 <div class="menu-icon">&#9776;</div>
                 <nav v-show="isNavOpen" class="dropdown-menu">
