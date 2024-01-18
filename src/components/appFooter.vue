@@ -217,5 +217,8 @@ export default {
             .contact-form {
                display: none;
             }
+            .social-icons{
+                justify-content: left;
+            }
         }
     </style>
