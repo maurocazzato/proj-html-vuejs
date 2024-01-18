@@ -267,6 +267,7 @@ main{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    margin-bottom: 10%;
 
     /* debugging */
     /* height: 300px; */
@@ -294,6 +295,10 @@ main{
         /* debugging */
         max-height: 300px;
 
+        h1{
+          font-size: 3rem;
+        }
+
         #P-container{
           line-height: 30px;
           // margin-right: 1003px;
@@ -305,6 +310,10 @@ main{
 /* sezione 2 */
 .Pet-Care-container{
     text-align: center;
+
+    h1{
+      font-size: 3rem;
+    }
     
 
     .five-service{
@@ -373,7 +382,7 @@ main{
             }
 
             img{
-              width: 10%;
+              width: 15%;
             }
         }
     }
