@@ -164,8 +164,9 @@ nav a:hover {
 .dropdown-menu {
   position: absolute;
   background-color: #fff;
+  max-width: 200px;
   top:250px;
-  right: -400px;
+  right:50px;
 }
 
 .dropdown-menu a {
