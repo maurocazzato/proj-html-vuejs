@@ -71,7 +71,7 @@ export default {
                     </div>
                     <h4>Pet Security</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <img src="../../img/imgs/assets/arrowupsvg.svg" alt="arrow-up" class="arrow">
                 </div>
 
                 <!-- Night Care  -->
@@ -82,7 +82,7 @@ export default {
                     </div>
                     <h4>Night Care</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <img src="../../img/imgs/assets/arrowupsvg.svg" alt="arrow-up" class="arrow">
                 </div>
 
                 <!-- Dog Walking  -->
@@ -93,7 +93,7 @@ export default {
                     </div>
                     <h4>Dog Walking</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <img src="../../img/imgs/assets/arrowupsvg.svg" alt="arrow-up" class="arrow">
                 </div>
 
                 <!-- Puppy Sitting  -->
@@ -104,7 +104,7 @@ export default {
                     </div>
                     <h4>Puppy Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <img src="../../img/imgs/assets/arrowupsvg.svg" alt="arrow-up" class="arrow">
                 </div>
 
                 <!-- Pet Sitting  -->
@@ -115,7 +115,7 @@ export default {
                     </div>
                     <h4>Pet Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <img src="../../img/imgs/assets/arrowupsvg.svg" alt="arrow-up" class="arrow">
                 </div>
             </div>
         </div>
@@ -271,13 +271,17 @@ margin-top: 20px;
                 background-color: white;
                 width: calc((100% / 3) - 25px );
                 padding: 35px;
+                color: black;
                 position: relative;
 
                 &:hover {
                     background-color: #7f7045;
                     color: white;
-                }
+                    .card-image, img, h4, .caption, .arrow {
+                        color: white;
+                    }
 
+                }
 
                 .card-image {
                     width: 50%;

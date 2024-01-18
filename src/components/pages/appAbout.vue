@@ -269,6 +269,7 @@ margin-top: 20px;
 
         h6 {
             color: #7f7045;
+            font-size: 20px;
         }
         h2, h6 {
             text-align: center;
