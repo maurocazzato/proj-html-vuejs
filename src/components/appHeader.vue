@@ -1,14 +1,26 @@
 <script>
 export default {
-  name: 'appHeader',
-            
-            };
-            function toggleNav() {
-            document.querySelector('nav').classList.toggle('active');
-        }
-            
-        
-       
+  data() {
+    return {
+      isNavOpen: false,
+    };
+  },
+  methods: {
+    toggleNav() {
+      this.isNavOpen = !this.isNavOpen;
+    },
+    closeNav() {
+      this.isNavOpen = false;
+    },
+  },
+  watch: {
+    $route(to, from) {
+      if (window.innerWidth > 768) {
+        this.isNavOpen = false;
+      }
+    },
+  },
+};
 </script>
 
 <template>
@@ -35,18 +47,16 @@ export default {
                 <router-link :to="{name: 'appAbout'}">About</router-link>
                 <router-link :to="{name: 'appServices'}">Services</router-link>
             </nav>
-            <div class="hamburger-menu" onclick="toggleNav()">
-                <div>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
+
+            <div class="hamburger-menu" @click="toggleNav">
+                <div class="menu-icon">&#9776;</div>
+                <nav v-show="isNavOpen" class="dropdown-menu">
+                    <router-link :to="{ name: 'appHome' }" @click="closeNav">Home</router-link>
+                    <router-link :to="{ name: 'appAbout' }" @click="closeNav">About</router-link>
+                    <router-link :to="{ name: 'appServices' }" @click="closeNav">Services</router-link>
                 </nav>
-             </div>
-                
             </div>
         </div>
-        
     </section>
 </template>
 
@@ -121,14 +131,6 @@ img{
     width: 100%;
 }
 /* nav visibile style */
-.nav-container {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
 nav a {
     color: rgba(116,116,116,255);
     text-decoration: none;
@@ -143,42 +145,47 @@ nav a:hover {
 
 /* Hamburger Menu Styles */
 .hamburger-menu {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    color: rgba(116,116,116,255);
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
 }
 
-.hamburger-menu div {
-    width: 30px;
-    height: 3px;
-    background-color: #fff;
-    margin: 6px 0;
-    transition: background-color 0.3s;
+.menu-icon {
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f8f8f8;
 }
 
 @media (max-width: 768px) {
-    .social-icons {
-        display: none;
-    }
-
     .hamburger-menu {
-        display: flex;
-    }
+    display: block;
+  }
+
+  .dropdown-menu {
+    display: block;
+    width: 100%;
+  }
+
 
     nav {
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        display: none;
-    }
-
-    nav.active {
-        display: flex;
+    display: none;
     }
 }
+
 </style>
