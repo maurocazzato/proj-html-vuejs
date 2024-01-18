@@ -148,10 +148,13 @@ nav a:hover {
   cursor: pointer;
   padding: 10px;
   font-size: 20px;
+  display: none;
 }
 
 .menu-icon {
   display: inline-block;
+  font-size: 40px;
+  color: rgba(116,116,116,255);
 }
 
 .dropdown-menu {
@@ -183,8 +186,11 @@ nav a:hover {
   }
 
 
-    nav {
+  .logo-container   nav {
     display: none;
+    }
+    .social-icons{
+        display: none;
     }
 }
 
