@@ -21,9 +21,10 @@ export default {
           </div>
     </div>
 
+    <!-- Sezione from 1500  -->
+
     <section id="from 1500">
 
-        <!-- Mini sezione from 1500  -->
 
         <div class="service">
             <div class="card-img">
@@ -45,7 +46,7 @@ export default {
     </section>
 
     <section id="pet-care-services">
-        <div class="container-services">
+        <div class="main-services">
             <h3>Service</h3>
             <h2>DogMilo Pet Care Services
             For Your Best Friends.</h2>
@@ -211,14 +212,33 @@ margin-top: 20px;
         }
     }
 }
+
+    // Responsive Sezione Service 
+
+    @media screen and (max-width: 768px) {
+    .service {
+        width: 100%;
+        display: block;
+            .card-img {
+                img {
+                    margin: auto;
+                }
+            }
+
+
+  }
+}
+
 // Sezione pet care services  
+
+
 #pet-care-services {
     margin-top: 150px;
     width: 100%;
     background-color: #f5f5f5;
     padding-bottom: 150px;
 
-    .container-services {
+    .main-services {
         width: 70%;
         margin: auto;
         margin-bottom: 100px;
@@ -256,11 +276,6 @@ margin-top: 20px;
                     background-color: #7f7045;
                     color: white;
                 }
-                #arrow-up {
-                    color: white;
-                    background-color: #7f7045;
-                    font-size: 50px;
-                }
 
                 .card-image {
                     width: 50%;
@@ -285,6 +300,30 @@ margin-top: 20px;
                     font-weight: 100;
                 }
 
+            }
+        }
+    }
+}
+
+// Sezione pet-care Responsive
+
+@media screen and (max-width: 768px) {
+  
+    #pet-care-services {
+        width: 100%;
+
+        .main-services {
+            display: block;
+            width: 100%;
+
+            .services-gallery {
+                width: 95%;
+                margin: auto;
+                .card-services {
+                    width: 100%;
+                    padding: 0;
+                    margin-top: 50px;
+                }
             }
         }
     }
