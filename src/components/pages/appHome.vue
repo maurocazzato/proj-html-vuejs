@@ -543,7 +543,7 @@ main{
         width: 100%;
         /* background-color: lightblue; */
         display: block;
-        margin-bottom: 50%; /* Ridotto il margine inferiore */
+        margin-bottom: 10%; /* Ridotto il margine inferiore */
         /* Debugging */
         /* height: 300px; */
 
@@ -682,6 +682,39 @@ main{
             }
         }
     }
+
+    .costumers-reviews-container {
+    margin-bottom: 300px;
+    width: 80%;
+    height: 300px;
+    margin-left: 15%;
+    display: block;
+    padding-bottom: 300px; /* Aggiunto padding per separazione */
+    /* Debugging */
+    /* background-color: lightblue; */
+
+    /* Contenitore principale per le recensioni */
+    .blocco-container {
+        width: 80%;
+        margin: auto;
+        margin-left: -15%;
+        display: block;
+        padding-left: 100px;
+        padding-right: 100px;
+        /* Debugging */
+        /* background-color: lightpink; */
+
+        /* Contenitore del testo */
+        .text-container {
+            line-height: 30px;
+            /* Titolo delle recensioni */
+            h1 {
+                font-size: 2rem;
+                line-height: 30px;
+            }
+        }
+    }
+}
 }
 
 
