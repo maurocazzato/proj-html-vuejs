@@ -48,10 +48,12 @@
             <div id="P-container">
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p>short lorem ipsum idea</p>
               <br>
 
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
               <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p>short lorem ipsum idea</p>
             </div>
 
         </div>
@@ -206,8 +208,7 @@
 
 
 *{
-    width: 50vw;
-    margin: auto;
+   
     font-family: 'Cabin', sans-serif;
 }
 // jumbo style
@@ -252,8 +253,14 @@ margin-top: 20px;
       margin-right: 20px;
     }
 
+main{
+    width: 50vw;
+    margin: auto;
+}
+
 /* sezione 1 */
 .Welcome-DogMilo-container{
+    margin-top: 10%;
     width: 100%;
     /* background-color: lightblue; */
     border: 0;
@@ -281,14 +288,15 @@ margin-top: 20px;
 
     .textCard{
         margin-left: 10%;
-        margin-top: 10%;
+        // margin-top: 10%;
         /* background-color: lightgreen; */
         max-width: 50%;
         /* debugging */
-        height: 500px;
+        max-height: 300px;
 
         #P-container{
-          margin-right: 1003px;
+          line-height: 30px;
+          // margin-right: 1003px;
         }
     }
 
@@ -320,11 +328,11 @@ margin-top: 20px;
 
         .service-text{
           padding: 10px;
-          width: 40%;
-          margin-left: -200%;
+          width: 100%;
+          // margin-left: 25%;
 
           img{
-            margin-left: 620%;
+            // margin-left: 100%;
             margin-top: 10px;
             width: 20px;
           }
@@ -349,7 +357,7 @@ margin-top: 20px;
 
     #chooseus-why-list{
       margin-top: -60%;
-      margin-right: -50%;
+      margin-left: 30%;
       margin-bottom: 10%;
 
         h1{
@@ -372,6 +380,7 @@ margin-top: 20px;
 }
 
 .costumers-reviews-container{
+  margin-bottom: 300px;
   width: 80%;
   height: 300px;
   // margin-left: -50%;
