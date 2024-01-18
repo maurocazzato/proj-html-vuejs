@@ -136,7 +136,7 @@
           <img src="../../img/imgs/assets/w-3.png" alt="">
         </div>
           <div>
-            <h3>safty first</h3>
+            <h3>Safety first</h3>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
         </div>
@@ -171,30 +171,26 @@
     <!-- blocchetto 1 -->
     <div class="container blocco-container">
       <div class="text-container">
-        <p>Review & Rating</p>
+        <p> <i class="fa-solid fa-paw" style="color: #ffaa00;"></i> Review & Rating</p>
         <h1>Over 8000 Customers </h1>
         <h1>With 5-star Reviews</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea excepturi nesciunt veniam. Voluptatibus aliquam dolorum facilis fuga molestiae dolore iusto odio nihil illo quisquam, voluptate obcaecati ipsam pariatur non mollitia.</p>
       </div>
     </div>
     <div class="container blocco-container">
       <div class="text-container">
         <br>
+        <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
         <h1>Grate Place</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque totam blanditiis. Maxime alias harum modi, facilis, sed fugiat est quod dolorum ipsa molestias earum culpa provident asperiores exercitationem odit!</p>
       </div>
     </div>
     <div class="container blocco-container">
       <div class="text-container">
         <br>
-        <h1>Over 8000 Customers </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+        <h1>Grate Place</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut delectus, obcaecati id quisquam saepe alias molestiae? Iusto quod tempora facilis facere ex voluptatum provident commodi perspiciatis. Sint doloribus nihil nemo.</p>
       </div>
     </div>
   </div>
@@ -273,15 +269,15 @@ main{
     /* height: 300px; */
 
     .cardleft{
-    width: 50%;
+    width: 500px;
     height: 500px;
     // margin-left: 20%;
 
       .image{
-          width: 100%;
+          width: 500px;
 
           /* debugging */
-          height: 100%;
+          height: 500px;
       }
 
     }
@@ -293,7 +289,7 @@ main{
         /* background-color: lightgreen; */
         max-width: 50%;
         /* debugging */
-        max-height: 300px;
+        max-height: 3000px;
 
         h1{
           font-size: 3rem;
@@ -326,25 +322,40 @@ main{
       
       .service{
         background-color: #ce7c2a;
-        min-width: 20%;
+        min-width: 200px;
         min-height: 100px;
-        margin-left: 10px;
+        margin-left: 40px;
         margin-top: 20px;
         /* text-align: center; */
         padding: 2%;
         border-radius: 45%;
+        text-align: center;
+
+        &:hover {
+            background-color: #7f7045;
+            color: white;
+        }
         
 
         .service-text{
+          color: #fff;
           padding: 10px;
           width: 100%;
-          // margin-left: 25%;
 
           img{
+            padding: 20px;
+            background-color: rgb(255, 201, 63);
             // margin-left: 100%;
             margin-top: 10px;
             width: 20px;
+            border-radius: 50%;
+
+              &:hover {
+                background-color: rgb(255, 228, 161);
+                color: white;
+            }
           }
+
         }
 
 
@@ -358,15 +369,15 @@ main{
   // display: flex;
 
     #carmen-sideimage{
-      width: 640px;
-      height: 853px;
+      width: 75%;
+      height: 75%;
       margin-top: 100px;
       margin-left: -50%;
     }
 
     #chooseus-why-list{
       margin-top: -60%;
-      margin-left: 30%;
+      margin-left: 50%;
       margin-bottom: 10%;
 
         h1{
@@ -389,35 +400,223 @@ main{
 }
 
 .costumers-reviews-container{
-  margin-bottom: 300px;
+  margin-bottom: 500px;
   width: 80%;
   height: 300px;
-  // margin-left: -50%;
+  margin-left: 15%;
   display: flex ;
   // debugging
   // background-color: lightblue;
 
   .blocco-container{
-    min-width: 50%;
+    min-width: 30%;
     margin: auto;
-    margin-left: -15%;
+    margin-left: -150px;
     display: block;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 10090px;
+    padding-left: 100px;
+    padding-right: 100px;
+  
     
     // debugging
     // background-color: lightpink;
 
     .text-container{
-
-      line-height: 20px;
+      line-height: 30px;
       h1{
         font-size: 2rem;
-        line-height: 50px;
+        line-height: 30px;
       }
     }
   }
+}
+
+
+@media (max-width: 768px){
+
+  main{
+    width: 100vw;
+    margin: auto;
+}
+  .Welcome-DogMilo-container{
+    margin-top: 10%;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: block;
+    // justify-content: center;
+    // justify-content: space-around;
+    margin-bottom: 50%;
+
+    /* debugging */
+    /* height: 300px; */
+
+    .cardleft{
+    width: 70%;
+    margin: auto;
+    // min-height: 5000px;
+    // margin-left: 20%;
+
+      .image{
+          width: 100%;
+
+          /* debugging */
+          height: 100%;
+      }
+
+    }
+
+
+    .textCard{
+        width: 90%;
+        margin: auto;
+        margin-left: 24%;
+        // margin-top: 10%;
+        /* background-color: lightgreen; */
+        
+        /* debugging */
+        max-height: 300px;
+
+        h1{
+          font-size: 3rem;
+        }
+
+        #P-container{
+          line-height: 20px;
+          // margin-right: 1003px;
+        }
+    }
+
+}
+
+.Pet-Care-container{
+    text-align: center;
+
+    h1{
+      font-size: 3rem;
+    }
+    
+
+    .five-service{
+      width: 50%;
+      margin: auto;
+      // background-color: aqua;
+      display: block;
+      
+      
+      .service{
+        background-color: #ce7c2a;
+        min-width: 20%;
+        min-height: 100px;
+        margin-left: -10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        /* text-align: center; */
+
+        border-radius: 45%;
+        text-align: center;
+
+
+        &:hover {
+            background-color: #7f7045;
+            color: white;
+        }
+        
+
+        .service-text{
+          color: #fff;
+          padding: 10px;
+          width: 100%;
+
+          img{
+            padding: 20px;
+            background-color: rgb(255, 201, 63);
+            // margin-left: 100%;
+            margin-top: 10px;
+            width: 20px;
+            border-radius: 50%;
+
+              &:hover {
+                background-color: rgb(255, 228, 161);
+                color: white;
+            }
+          }
+
+        }
+
+
+     }
+  }
+}
+
+.why-us-container{
+
+// display: flex;
+
+  #carmen-sideimage{
+    width: 75%;
+    height: 75%;
+    margin-top: 100px;
+    margin-left: 12%;
+  }
+
+  #chooseus-why-list{
+    margin-left: 3%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 80%;
+
+
+
+      h1{
+      font-size: 3rem;
+      }
+
+      #why-one, #why-two, #why-three {
+      //  display: flex;
+      margin-bottom: 40px;
+
+          h3{
+            font-size: 1.5rem;
+          }
+
+          img{
+            width: 15%;
+          }
+      }
+  }
+}
+
+.costumers-reviews-container{
+  margin-bottom: 300px;
+  width: 80%;
+  height: 300px;
+  margin-left: 15%;
+  display: block ;
+  padding-bottom: 300px;
+  // debugging
+  // background-color: lightblue;
+
+  .blocco-container{
+    width: 80%;
+    margin: auto;
+    margin-left: -15%;
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+    // debugging
+    // background-color: lightpink;
+
+    .text-container{
+      line-height: 30px;
+      h1{
+        font-size: 2rem;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
 }
 
 </style>
