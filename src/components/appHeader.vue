@@ -1,5 +1,6 @@
 <script>
 export default {
+    name: 'appHeader',
   data() {
     return {
       isNavOpen: false,
@@ -51,9 +52,9 @@ export default {
             <div class="hamburger-menu" @click="toggleNav">
                 <div class="menu-icon">&#9776;</div>
                 <nav v-show="isNavOpen" class="dropdown-menu">
-                    <router-link :to="{ name: 'appHome' }" @click="closeNav">Home</router-link>
-                    <router-link :to="{ name: 'appAbout' }" @click="closeNav">About</router-link>
-                    <router-link :to="{ name: 'appServices' }" @click="closeNav">Services</router-link>
+                    <router-link :to="{ name: 'appHome' }">Home</router-link>
+                    <router-link :to="{ name: 'appAbout' }">About</router-link>
+                    <router-link :to="{ name: 'appServices' }">Services</router-link>
                 </nav>
             </div>
         </div>
@@ -175,7 +176,7 @@ nav a:hover {
   background-color: #f8f8f8;
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .hamburger-menu {
     display: block;
   }
