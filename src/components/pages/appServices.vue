@@ -60,7 +60,7 @@ export default {
                     </div>
                     <h4>Coat Handler Pets</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <img src="../../img/imgs/assets/arrowupsvg.svg" alt="arrow-up" class="arrow">
                 </div>
 
                 <!-- Pet Security   -->
@@ -271,11 +271,13 @@ margin-top: 20px;
                 background-color: white;
                 width: calc((100% / 3) - 25px );
                 padding: 35px;
+                position: relative;
 
                 &:hover {
                     background-color: #7f7045;
                     color: white;
                 }
+
 
                 .card-image {
                     width: 50%;
@@ -286,6 +288,15 @@ margin-top: 20px;
                         border-radius: 50%;
                     }
 
+                }
+
+                
+                .arrow {
+                    width: 25px;
+                    position: absolute;
+                    bottom: 10px;
+                    left: 10px;
+            
                 }
                 h4, .caption {
                     text-align: center;
