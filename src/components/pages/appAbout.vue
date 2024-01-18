@@ -270,7 +270,7 @@ margin-top: 20px;
 
             margin-left: -120px;
             margin-top: 80px;
-            width: 30% ;
+            width: 45% ;
 
             img {
                 width: 100%;
@@ -284,16 +284,24 @@ margin-top: 20px;
             padding: 15px;
             padding-left: 120px;
 
+            h2 {
+                font-size: 32px;
+            }
             .label {
                 display: flex;
                 align-items: center;
-                margin-top: 20px;
+                margin-top: 15px;
 
                 h4 {
                     padding: 0;
+                    font-size: 22px;
+                }
+                p {
+                    font-family: "Jost", Sans-serif;
+                    font-weight: 300;
                 }
                 .label-img {
-                    width: 125px;
+                    width: 70px;
                     margin-right: 15px;
                     border-radius: 50%;
                     background-color: #7f7045;

@@ -36,8 +36,9 @@ export default {
                 </div>
                 <h2>Your Pet Our Passion</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled               
+                </p>
                 
             </div>
         </div>
@@ -45,7 +46,7 @@ export default {
 
     <section id="pet-care-services">
         <div class="container-services">
-            <h4>Service</h4>
+            <h3>Service</h3>
             <h2>DogMilo Pet Care Services
             For Your Best Friends.</h2>
             <div class="services-gallery">
@@ -58,7 +59,7 @@ export default {
                     </div>
                     <h4>Coat Handler Pets</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
 
                 <!-- Pet Security   -->
@@ -69,7 +70,7 @@ export default {
                     </div>
                     <h4>Pet Security</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <img src="../../assets/vue.svg" alt="arrow up">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
 
                 <!-- Night Care  -->
@@ -80,7 +81,7 @@ export default {
                     </div>
                     <h4>Night Care</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
 
                 <!-- Dog Walking  -->
@@ -91,7 +92,7 @@ export default {
                     </div>
                     <h4>Dog Walking</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
 
                 <!-- Puppy Sitting  -->
@@ -102,7 +103,7 @@ export default {
                     </div>
                     <h4>Puppy Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
 
                 <!-- Pet Sitting  -->
@@ -113,7 +114,7 @@ export default {
                     </div>
                     <h4>Pet Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
             </div>
         </div>
@@ -123,7 +124,8 @@ export default {
 
 <style lang="scss" scoped>
 
-@use '../src/styles/general.scss' as *;
+@use '../../styles/general.scss' as *;
+
 
 *{
     font-family: 'Cabin', sans-serif;
@@ -163,40 +165,45 @@ margin-top: 20px;
     #up-a{
         width: 40%;
     }
+
+    // Sezione Service 
 .service {
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .text {
-        flex-basis: 60%;
+        flex-basis: 57%;
         height: 300px;
+
+        p {        font-family: "Jost", Sans-serif;}
     }
     .card-img {
         flex-basis: 40%;
         display: flex;
+        align-items: center;
         box-sizing: border-box;
 
         .right {
             flex-basis: 50%;
-        }
-        .square {
-            width: 100%;
-            background-color: red;
-            height: 150px;
-            margin-bottom: 25px;
         }
     }
     // parte destra con il testo 
     .text {
         padding: 25px;
 
+        p {
+                font-size: 16px;
+            }
+
         .label {
             display: flex;
             align-items: center;
             justify-content: flex-start;
+
+
         }
         h4 {
             margin-left: 25px;
@@ -212,18 +219,23 @@ margin-top: 20px;
     padding-bottom: 150px;
 
     .container-services {
-        width: 60%;
+        width: 70%;
         margin: auto;
+        margin-bottom: 100px;
 
-        h4 {
+        h3 {
             color: #7f7045;
             text-align: center;
             padding-top: 25px;
+            margin-top: 100px;
+            font-size: 25px;
         }
 
         h2 {
             text-align: center;
-            padding-top: 25px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 40px;
             margin: auto;
         }
 
@@ -238,7 +250,7 @@ margin-top: 20px;
                 box-sizing: border-box;
                 background-color: white;
                 width: calc((100% / 3) - 25px );
-                padding: 25px;
+                padding: 35px;
 
                 &:hover {
                     background-color: #7f7045;
@@ -262,6 +274,15 @@ margin-top: 20px;
                 }
                 h4, .caption {
                     text-align: center;
+                    color: black;
+                }
+                h4 {
+                    font-size: 25px;
+                }
+
+                .caption {
+                    font-size: 18px;
+                    font-weight: 100;
                 }
 
             }
