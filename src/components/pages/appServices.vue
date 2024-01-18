@@ -69,7 +69,7 @@ export default {
                     </div>
                     <h4>Pet Security</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <img src="../../assets/vue.svg" alt="arrow up">
                 </div>
 
                 <!-- Night Care  -->
@@ -122,6 +122,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
+@use '../src/styles/general.scss' as *;
 
 *{
     font-family: 'Cabin', sans-serif;

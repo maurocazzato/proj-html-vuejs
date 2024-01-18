@@ -23,5 +23,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../src/styles/_general.scss' as *;
+
+@use '../src/styles/general' as *;
 </style>
