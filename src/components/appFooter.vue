@@ -13,79 +13,81 @@ export default {
 <template>
 <footer>
     <section class="footer-container">
-    <div class="footer-section">
-        <ul>
-            <h3>Get in Touch</h3>
-            <li><a href="#">Have a Question for us ?</a></li>
-            <li><a href="#">We'll answer your problem here</a></li>
-            <li><div class="social-icons">
-                <div class="social-icon"><i class="fa-brands fa-square-facebook"></i></div>
-                <div class="social-icon"><i class="fa-brands fa-square-twitter"></i></div>
-                <div class="social-icon"><i class="fa-brands fa-square-instagram"></i></div>
-                <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
-                <div class="social-icon"><i class="fa-brands fa-square-pinterest"></i></div>
-            </div></li>
-        </ul>
-    </div>
-
-    <div class="footer-section">
-        <ul>
-            <h3>Support</h3>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Online Chat</a></li>
-            <li><a href="#">Whatsapp</a></li>
-            <li><a href="#">Telegram</a></li>
-            <li><a href="#">Snapchat</a></li>
-        </ul>
-    </div>
-
-    <div class="footer-section">
-        <ul>
-            <h3>About</h3>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Job</a></li>
-            <li><a href="#">In Press</a></li>
-        </ul>
-    </div>
-
-    <div class="footer-section">
-        <ul>
-            <h3>Faq</h3>
-            <li><a href="#">Account</a></li>
-            <li><a href="#">Order</a></li>
-            <li><a href="#">Delivery</a></li>
-            <li><a href="#">Payments</a></li>
-            <li><a href="#">Returns</a></li>
-        </ul>
-    </div>
-
-    <div class="footer-section">
-        <ul>
-            <h3>Contact Me</h3>
-            <li><a href="#"><i class="fa-solid fa-location-dot"></i>4500 Mercantile plaza , Suite 300 , Fort Worth , TX,76137,USA</a></li>
-            <li><a href="#">+1234567890</a></li>
-            <li><a href="#"><i class="fa-solid fa-envelope"></i> Info@example.com</a></li>
-        </ul>
-    </div>
-
-    <div class="contact-form">
+        <!-- sezione get in touch con icone -->
+        <div class="footer-section">
+            <ul>
+                <h3>Get in Touch</h3>
+                <li><a href="#">Have a Question for us ?</a></li>
+                <li><a href="#">We'll answer your problem here</a></li>
+                <li><div class="social-icons">
+                    <div class="social-icon"><i class="fa-brands fa-square-facebook"></i></div>
+                    <div class="social-icon"><i class="fa-brands fa-square-twitter"></i></div>
+                    <div class="social-icon"><i class="fa-brands fa-square-instagram"></i></div>
+                    <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="social-icon"><i class="fa-brands fa-square-pinterest"></i></div>
+                </div></li>
+            </ul>
+        </div>
+        <!-- sezione support con lista -->
+        <div class="footer-section">
+            <ul>
+                <h3>Support</h3>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Online Chat</a></li>
+                <li><a href="#">Whatsapp</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">Snapchat</a></li>
+            </ul>
+        </div>
+        <!-- sezione about con lista -->
+        <div class="footer-section">
+            <ul>
+                <h3>About</h3>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Job</a></li>
+                <li><a href="#">In Press</a></li>
+            </ul>
+        </div>
+        <!-- sezione faq con lista -->
+        <div class="footer-section">
+            <ul>
+                <h3>Faq</h3>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Returns</a></li>
+            </ul>
+        </div>
+        <!-- sezione contact me con lista -->
+        <div class="footer-section">
+            <ul>
+                <h3>Contact Me</h3>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i>4500 Mercantile plaza , Suite 300 , Fort Worth , TX,76137,USA</a></li>
+                <li><a href="#">+1234567890</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i> Info@example.com</a></li>
+            </ul>
+        </div>
+        <!-- form arancione -->
+        <div class="contact-form">
             <img src="../assets/news.png" alt="Foto">
             <div>
-            <h2>Subscribe to Our Newsletter</h2>
-        
-            <label for="email" style="color: #fff;"></label>
-            <input type="email" id="email" name="email" class="email-input" required>
-        </div>
+                <h2>Subscribe to Our Newsletter</h2>
+                <label for="email" style="color: #fff;"></label>
+                <input type="email" id="email" name="email" class="email-input" required>
+            </div>
             <button class="send-button">@</button>
         
-    </div>
+         </div>
 
-</section>
-    <div class="line"></div>
+    </section>
 
-    <div class="contact-box">
+        <!-- linea e copyright -->
+        <div class="line"></div>
+
+        <div class="contact-box">
             <p>Copyright © 2024 dogmilo-wordpress | Powered by dogmilo-wordpress</p>
         </div>
 </footer>
