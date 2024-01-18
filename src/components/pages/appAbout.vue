@@ -16,7 +16,7 @@ export default {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           
             <div class="btn-jumbo">
-                <button type="button" class="custom-btn"><i class="fa-regular fa-circle-play"></i></button>
+                <button type="button" class="custom-btn"><img id="up-a" src="../../assets/up-a.png" alt=""></button>
             </div>
           </div>
     </div>
@@ -162,11 +162,14 @@ margin-top: 20px;
       border-radius: 15px;
       background-color: rgba(0,215,236,255);
       color: #fff;
-      padding: 10px 20px;
+      padding: 5px;
       font-size: 15px;
       cursor: pointer;
       border: none;
       outline: none;
+    }
+    #up-a{
+        width: 40%;
     }
     
     .welcome {
