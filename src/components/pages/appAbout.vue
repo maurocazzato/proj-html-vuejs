@@ -179,9 +179,16 @@ margin-top: 20px;
         align-items: center;
         width: 60%; }
 
+        .right-image {
+            flex-basis: 45%;
+            img {
+                max-width: 100%;
+            }
+        }
         .text {
             text-align: left;
-            flex-basis: 50%;
+            flex-basis: 45%;
+            
 
             .head {
                display: flex;
@@ -197,34 +204,62 @@ margin-top: 20px;
         }
         p {
             font-size: 16px;
-             font-style: italic;
-            font-weight: 100;
+            font-family: "Jost", Sans-serif;
+            font-weight: 300;
         }
         
+        // Responsive Welcome 
+
+    @media screen and (max-width: 768px) {
+    .welcome {
+    width: 95%;
+    display: block;
+  }
+}
+
+    // Sezione Presentazione 
+
     .presentazione {
         width: 60%;
         margin: auto;
         display: flex;
         justify-content: space-between;
         margin-top: 100px;
-    }
 
-    .card {
+        .card {
         width: calc(100% / 3);
-    }
-    .right-image {
-        flex-basis: 50%;
+            .pres-texts {
+            background-color: #7f7045;
+            color: white;
+            padding: 10px;
+        }
+
+            .card-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
     }
 
-    .pres-texts {
-        background-color: #7f7045;
-        color: white;
-        padding: 10px;
+
     }
 
-    .card-img img {
-        width: 100%;
-    }
+    // Responsive sezione Presentazione 
+
+    @media screen and (max-width: 760px) {
+  .presentazione {
+    width: 100%;
+    display: block;
+
+        .card {
+            width: 100%;
+        }
+  }
+}
+
+
 
     // Sezione our Story con video 
     .our-story {
@@ -255,6 +290,14 @@ margin-top: 20px;
         }
     }
 
+    // Our Story Responsive 
+        @media screen and (max-width: 768px) {
+    .our-story {
+        width: 100%;
+    }
+    }
+    
+    // Sezione Fresh Healty 
     .fresh-healty {
         margin-top: 100px;
         width: 70%;
@@ -318,5 +361,28 @@ margin-top: 20px;
 
     }
 
+    // Sezione Responsive di fresh Healty 
 
+    @media screen and (max-width: 768px) {
+  .fresh-healty {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    display: block;
+    justify-content: space-between;
+    position: relative;
+
+    .card-image {
+
+        margin-left: 0;
+        width: 100% ;
+    }
+
+    .texts {
+        width: 95%;
+        padding-left: 0;
+    }
+    
+  }
+}
 </style>
