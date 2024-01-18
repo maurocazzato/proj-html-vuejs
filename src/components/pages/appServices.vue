@@ -58,7 +58,7 @@ export default {
                     </div>
                     <h4>Coat Handler Pets</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
 
                 <!-- Pet Security   -->
@@ -69,7 +69,7 @@ export default {
                     </div>
                     <h4>Pet Security</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
 
                 <!-- Night Care  -->
@@ -80,7 +80,7 @@ export default {
                     </div>
                     <h4>Night Care</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
 
                 <!-- Dog Walking  -->
@@ -91,7 +91,7 @@ export default {
                     </div>
                     <h4>Dog Walking</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
 
                 <!-- Puppy Sitting  -->
@@ -102,7 +102,7 @@ export default {
                     </div>
                     <h4>Puppy Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
 
                 <!-- Pet Sitting  -->
@@ -113,7 +113,7 @@ export default {
                     </div>
                     <h4>Pet Sitting</h4>
                     <div class="caption">The standard chunk of Lorem Ipsum used since. </div>
-                    <i id="arrow-up" class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <i class="fa-light fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
                 </div>
             </div>
         </div>
