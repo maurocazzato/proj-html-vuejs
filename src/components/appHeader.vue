@@ -44,7 +44,7 @@ export default {
         <!-- parte inferiore header con logo e menu navigabile -->
         <div class="logo-container">
             <div><img src="../assets/logo.png" alt=""></div>
-            <nav>
+            <nav class="navvisibile">
                 <router-link :to="{name: 'appHome'}">Home</router-link>
                 <router-link :to="{name: 'appAbout'}">About</router-link>
                 <router-link :to="{name: 'appServices'}">Services</router-link>
@@ -52,11 +52,13 @@ export default {
         <!-- hamburher menu navigabile -->
             <div class="hamburger-menu" @click="toggleNav">
                 <div class="menu-icon">&#9776;</div>
-                <nav v-show="isNavOpen" class="dropdown-menu">
+            
+                <nav v-if="isNavOpen" class="dropdown-menu">
                     <router-link :to="{ name: 'appHome' }">Home</router-link>
                     <router-link :to="{ name: 'appAbout' }">About</router-link>
                     <router-link :to="{ name: 'appServices' }">Services</router-link>
                 </nav>
+           
             </div>
         </div>
     </section>
@@ -160,17 +162,17 @@ nav a:hover {
 }
 
 .dropdown-menu {
-  display: none;
   position: absolute;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  top:250px;
+  right: -400px;
 }
 
 .dropdown-menu a {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: #333;
+  color: rgba(116,116,116,255);
 }
 
 .dropdown-menu a:hover {
@@ -188,12 +190,13 @@ nav a:hover {
   }
 
 
-  .logo-container   nav {
+  .logo-container .navvisibile {
     display: none;
     }
     .social-icons{
         display: none;
     }
+
 }
 
 </style>

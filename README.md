@@ -10,7 +10,7 @@
   . sezione 2/3 (about, services)
 
 - mauro
-  .header, footer
+  .header, footer, router
 
 - ali
   .sezione 1 (home)
