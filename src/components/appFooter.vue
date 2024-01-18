@@ -187,7 +187,7 @@ export default {
 
         .contact-form img {
            width: 40%;
-           margin-bottom: 55px;
+           margin-bottom: 83px;
            margin-right: 60px;
         }
 
