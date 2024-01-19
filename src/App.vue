@@ -1,7 +1,6 @@
 <script>
 import appHeader from './components/appHeader.vue';
 import appFooter from './components/appFooter.vue';
-import appHome from './components/pages/appHome.vue';
 
 export default {
   name: 'App',
