@@ -264,6 +264,7 @@ margin-top: 20px;
             margin: auto;
             width: 100%;
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
 
             .card-services {
