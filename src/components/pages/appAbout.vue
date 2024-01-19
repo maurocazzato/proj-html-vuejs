@@ -1,7 +1,13 @@
 <script>
+import appHeader from '../../components/appHeader.vue';
+import appFooter from '../../components/appFooter.vue';
 
 export default {
     name: "appAbout",
+    components: {
+    appHeader,
+    appFooter,
+  },
 
 }
 
@@ -9,6 +15,7 @@ export default {
 </script>
 
 <template>
+    <appHeader/>
       <!-- jumbo about -->
   <div class="backgroundbox">
         <div class="jumbo-script">
@@ -128,7 +135,7 @@ export default {
     </div>
 
 
-
+    <appFooter/>
 </template>
 
 

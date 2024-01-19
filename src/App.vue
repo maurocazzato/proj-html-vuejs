@@ -8,7 +8,6 @@ export default {
   components: {
     appHeader,
     appFooter,
-    appHome,
   },
 
 
@@ -17,10 +16,10 @@ export default {
 </script>
 
 <template>
-    <appHeader/>
-      <router-view></router-view>
-      <appHome />
-    <appFooter/>
+    <!-- <appHeader/> -->
+    <router-view></router-view>
+      
+    <!-- <appFooter/> -->
  
 </template>
 
