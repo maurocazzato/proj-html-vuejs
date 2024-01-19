@@ -4,10 +4,11 @@ import appAbout from './components/pages/appAbout.vue';
 import appServices from './components/pages/appServices.vue';
 
 
+
 const router = createRouter({
 history: createWebHistory(),
 routes: [
-{
+    {
 path: '/Home'
 ,
 name: 'appHome'

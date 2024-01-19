@@ -1,18 +1,14 @@
 <script>
-import appHeader from '../../components/appHeader.vue';
-import appFooter from '../../components/appFooter.vue';
+
   export default {
     name: 'appHome',
-    components: {
-    appHeader,
-    appFooter,
-  },
+  
 
   };
 </script>
 
 <template>
-    <appHeader/>
+    
   <!-- jumbo home -->
   <div class="backgroundbox">
         <div class="jumbo-script">
@@ -257,7 +253,7 @@ import appFooter from '../../components/appFooter.vue';
 
 
 </main>
-<appFooter/>
+
 </template>
 
 <style lang="scss" scoped>
