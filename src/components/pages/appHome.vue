@@ -52,10 +52,7 @@
         <!-- Contenitore per i paragrafi informativi -->
         <div id="P-container">
           <!-- Paragrafo 1 con testo Lorem Ipsum -->
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam accusamus reiciendis, commodi quibusdam aut! Voluptate doloremque molestias suscipit officia omnis neque, corporis, ad at blanditiis consectetur aspernatur ratione obcaecati?</p>
-
-          <!-- Paragrafo 2 con testo Lorem Ipsum -->
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fugit maiores necessitatibus sequi. Perspiciatis natus earum rerum a tempore, vitae numquam porro omnis cupiditate, ipsam voluptas et voluptates nisi ducimus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam    accusamus reiciendis, commodi quibusdam aut! Voluptate doloremque molestias suscipit officia omnis neque, corporis, ad at blanditiis consectetur aspernatur ratione obcaecati?</p>
         </div>
 
     </div>
@@ -79,8 +76,9 @@
     <!-- Contenitore per i cinque servizi offerti -->
     <div class="five-service">
 
-        <!-- Servizio 1 -->
-        <div class="service">
+       <div class="card-container">
+         <!-- Servizio 1 -->
+         <div class="service">
             <div class="service-text">
                 <!-- Titolo del servizio -->
                 <h3 class="service-title">Pet Security</h3> 
@@ -103,6 +101,8 @@
                 <img src="../../img/imgs/assets/right.png" alt="">
             </div>
         </div>
+       </div>
+       <div class="card-container">
 
         <!-- Servizio 3 -->
         <div class="service">
@@ -133,6 +133,7 @@
                 <img src="../../img/imgs/assets/right.png" alt="">
             </div>
         </div> 
+       </div>
     </div>
 </div>
 
@@ -302,7 +303,7 @@ margin-top: 20px;
     }
 
 main{
-    width: 50vw;
+    width: 70vw;
     margin: auto;
 }
 
@@ -360,6 +361,7 @@ main{
 .Pet-Care-container {
     /* Allinea il testo al centro della sezione */
     text-align: center;
+    display: block;
 
     /* Stile per il titolo principale della sezione */
     h1 {
@@ -367,15 +369,22 @@ main{
         font-size: 3rem;
     }
 
+   
     /* Contenitore per i cinque servizi offerti */
     .five-service {
+        margin-left: -2%;
         /* Occupa l'intera larghezza della sezione */
         width: 100%;
         /* Centra il contenuto orizzontalmente */
-        margin: auto;
+        // margin: auto;
         /* Layout flessibile con spaziatura uniforme */
+        display: block;
+
+        .card-container{
         display: flex;
         justify-content: center;
+        }
+
 
         /* Stile per ogni singolo servizio */
         .service {
@@ -394,7 +403,7 @@ main{
             /* Padding del 2% */
             padding: 2%;
             /* Bordi arrotondati al 45% */
-            border-radius: 45%;
+            border-radius: 30%;
 
             /* Stile quando il mouse passa sopra il servizio */
             &:hover {
@@ -404,10 +413,11 @@ main{
 
             /* Stile per il testo all'interno del servizio */
             .service-text {
+                text-align: center;
                 /* Colore del testo bianco */
                 color: #fff;
                 /* Padding di 10px */
-                padding: 10px;
+                padding: 5px;
                 /* Occupa l'intera larghezza del servizio */
                 width: 100%;
 
@@ -488,7 +498,7 @@ main{
 
 /* Sezione delle recensioni dei clienti */
 .costumers-reviews-container {
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     width: 80%;
     height: 300px;
     margin-left: 15%;
@@ -516,8 +526,174 @@ main{
     }
 }
 
+@media (max-width: 1100px) {
+    main {
+        width: 100vw;
+        margin: auto;
+    }
+
+    /* Stile per la sezione di benvenuto DogMilo */
+    .Welcome-DogMilo-container {
+        margin-top: 10%;
+        width: 100%;
+        /* background-color: lightblue; */
+        display: block;
+        margin-bottom: 10%; /* Ridotto il margine inferiore */
+
+        /* Stile per la parte sinistra della card */
+        .cardleft {
+            max-width: 70%;
+            margin: auto;
+
+            /* Immagine a grandezza massima */
+            .image {
+                width: 100%;
+                /* Debugging */
+                height: 100%;
+            }
+        }
+
+        /* Stile per la parte destra della card contenente il testo */
+        .textCard {
+            width: 100%;
+            margin: auto;
+            margin-left: 24%;
+        
+            h1 {
+                font-size: 3rem;
+            }
+
+            /* Contenitore per i paragrafi */
+            #P-container {
+                line-height: 20px;
+            
+            }
+        }
+    }
+
+    /* Stile per la sezione dei servizi di cura per DogMilo */
+    .Pet-Care-container {
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .five-service {
+            width: 100%;
+            margin: auto;
+            display: block;
+
+            /* Stile per ogni singolo servizio */
+            .service {
+                background-color: #ce7c2a;
+                min-width: 20%;
+                min-height: 100px;
+                margin-right: 50px;
+                margin-top: 20px;
+                /* Bordi arrotondati al 45% */
+                border-radius: 30%;
+                text-align: center;
+
+                /* Stile quando il mouse passa sopra il servizio */
+                &:hover {
+                    background-color: #7f7045;
+                    color: white;
+                }
+
+                /* Stile per il testo all'interno del servizio */
+                .service-text {
+                    color: #fff;
+                    // padding: 10px;
+                    width: 100%;
+
+                    /* Stile per l'icona immagine */
+                    img {
+                        padding: 20px;
+                        background-color: rgb(255, 201, 63);
+                        margin-top: 10px;
+                        width: 20px;
+                        /* Bordi arrotondati al 50% */
+                        border-radius: 50%;
+
+                        /* Stile quando il mouse passa sopra l'immagine */
+                        &:hover {
+                            background-color: rgb(255, 228, 161);
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Stile per la sezione "Why Choose Us?" */
+    .why-us-container {
+        /* Stile per l'immagine laterale (Carmen) */
+        #carmen-sideimage {
+            width: 75%;
+            height: 75%; 
+            margin-top: 100px;
+            margin-left: 12%; /* Modificato margine sinistro */
+        }
+
+        /* Stile per la lista di motivi "Why Choose Us?" */
+        #chooseus-why-list {
+            margin-left: 3%;
+            margin-bottom: 10%;
+            margin-top: 10%;
+            width: 80%;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            /* Stile per ogni motivo nella lista */
+            #why-one, #why-two, #why-three {
+                margin-bottom: 60px;
+
+                h3 {
+                    font-size: 1.5rem;
+                }
+
+                img {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    .costumers-reviews-container {
+    margin-bottom: 400px;
+    width: 100%;
+    height: 300px;
+    display: block;
+    padding-bottom: 300px; /* Aggiunto padding per separazione */
+
+        /* Contenitore principale per le recensioni */
+        .blocco-container {
+            width: 80%;
+            margin: auto;
+            margin-left: -15%;
+            display: block;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            /* Contenitore del testo */
+            .text-container {
+                line-height: 30px;
+                /* Titolo delle recensioni */
+                h1 {
+                    font-size: 2rem;
+                    line-height: 30px;
+                }
+            } 
+        }
+    }
+}
+
 /* Media query per schermi più piccoli (max-width: 768px) */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     main {
         width: 100vw;
         margin: auto;
@@ -571,20 +747,27 @@ main{
         }
 
         .five-service {
-            width: 50%;
+            width: 100%;
             margin: auto;
             display: block;
+
+
+            .card-container{
+            width: 80%;
+            display: block;
+            margin: auto;
+            };
+
 
             /* Stile per ogni singolo servizio */
             .service {
                 background-color: #ce7c2a;
                 min-width: 20%;
                 min-height: 100px;
-                margin-left: -10px;
-                margin-right: 10px;
+                margin-right: 50px;
                 margin-top: 20px;
                 /* Bordi arrotondati al 45% */
-                border-radius: 45%;
+                border-radius: 30%;
                 text-align: center;
 
                 /* Stile quando il mouse passa sopra il servizio */
@@ -596,7 +779,7 @@ main{
                 /* Stile per il testo all'interno del servizio */
                 .service-text {
                     color: #fff;
-                    padding: 10px;
+                    // padding: 10px;
                     width: 100%;
 
                     /* Stile per l'icona immagine */
@@ -663,27 +846,194 @@ main{
     display: block;
     padding-bottom: 300px; /* Aggiunto padding per separazione */
 
-    /* Contenitore principale per le recensioni */
-    .blocco-container {
-        width: 80%;
-        margin: auto;
-        margin-left: -15%;
-        display: block;
-        padding-left: 100px;
-        padding-right: 100px;
+        /* Contenitore principale per le recensioni */
+        .blocco-container {
+            width: 80%;
+            margin: auto;
+            margin-left: -15%;
+            display: block;
+            padding-left: 100px;
+            padding-right: 100px;
 
-        /* Contenitore del testo */
-        .text-container {
-            line-height: 30px;
-            /* Titolo delle recensioni */
-            h1 {
-                font-size: 2rem;
+            /* Contenitore del testo */
+            .text-container {
                 line-height: 30px;
+                /* Titolo delle recensioni */
+                h1 {
+                    font-size: 2rem;
+                    line-height: 30px;
+                }
             }
         }
     }
 }
+
+@media (max-width: 500px) {
+    main {
+        width: 100vw;
+        margin: auto;
+    }
+
+    /* Stile per la sezione di benvenuto DogMilo */
+    .Welcome-DogMilo-container {
+        margin-top: 10%;
+        width: 100%;
+        /* background-color: lightblue; */
+        display: block;
+        margin-bottom: 10%; /* Ridotto il margine inferiore */
+
+        /* Stile per la parte sinistra della card */
+        .cardleft {
+            max-width: 70%;
+            margin: auto;
+
+            /* Immagine a grandezza massima */
+            .image {
+                width: 100%;
+                /* Debugging */
+                height: 100%;
+            }
+        }
+
+        /* Stile per la parte destra della card contenente il testo */
+        .textCard {
+            width: 100%;
+            margin: auto;
+            margin-left: 24%;
+        
+            h1 {
+                font-size: 3rem;
+            }
+
+            /* Contenitore per i paragrafi */
+            #P-container {
+                line-height: 20px;
+               
+            }
+        }
+    }
+
+    /* Stile per la sezione dei servizi di cura per DogMilo */
+    .Pet-Care-container {
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .five-service {
+            width: 100%;
+            margin: auto;
+            display: block;
+
+
+            .card-container{
+            width: 80%;
+            display: block;
+            margin: auto;
+            };
+
+            /* Stile per ogni singolo servizio */
+            .service {
+                background-color: #ce7c2a;
+                min-width: 20%;
+                min-height: 100px;
+                margin-right: 50px;
+                margin-top: 20px;
+                /* Bordi arrotondati al 45% */
+                border-radius: 30%;
+                text-align: center;
+
+                /* Stile quando il mouse passa sopra il servizio */
+                &:hover {
+                    background-color: #7f7045;
+                    color: white;
+                }
+
+                /* Stile per il testo all'interno del servizio */
+                .service-text {
+                    color: #fff;
+                    // padding: 10px;
+                    width: 100%;
+
+                    /* Stile per l'icona immagine */
+                    img {
+                        padding: 20px;
+                        background-color: rgb(255, 201, 63);
+                        margin-top: 10px;
+                        width: 20px;
+                        /* Bordi arrotondati al 50% */
+                        border-radius: 50%;
+
+                        /* Stile quando il mouse passa sopra l'immagine */
+                        &:hover {
+                            background-color: rgb(255, 228, 161);
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Stile per la sezione "Why Choose Us?" */
+    .why-us-container {
+        /* Stile per l'immagine laterale (Carmen) */
+        #carmen-sideimage {
+            width: 75%;
+            height: 75%; 
+            margin-top: 100px;
+            margin-left: 12%; /* Modificato margine sinistro */
+        }
+
+        /* Stile per la lista di motivi "Why Choose Us?" */
+        #chooseus-why-list {
+            margin-left: 3%;
+            margin-bottom: 10%;
+            margin-top: 10%;
+            width: 80%;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            /* Stile per ogni motivo nella lista */
+            #why-one, #why-two, #why-three {
+                margin-bottom: 60px;
+
+                h3 {
+                    font-size: 1.5rem;
+                }
+
+                img {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    .costumers-reviews-container {
+    margin-bottom: 300px;
+    width: 100%;
+    height: 300px;
+    display: block;
+    padding-bottom: 300px; /* Aggiunto padding per separazione */
+
+        /* Contenitore principale per le recensioni */
+        .blocco-container {
+            width: 100%;
+            display: block;
+
+            /* Contenitore del testo */
+            .text-container {
+                line-height: 30px;
+                /* Titolo delle recensioni */
+                h1 {
+                    font-size: 2rem;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
 }
-
-
 </style>
