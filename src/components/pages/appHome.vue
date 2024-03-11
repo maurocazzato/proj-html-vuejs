@@ -311,8 +311,6 @@ main{
     /* Distanza superiore rispetto al contenuto precedente */
     margin-top: 10%;
     width: 100%;
-    /* Sfondo azzurro chiaro */
-    /* background-color: lightblue; */
     border: 0;
     /* Layout flessibile con spaziatura uniforme */
     display: flex;
@@ -321,16 +319,10 @@ main{
     /* Distanza inferiore rispetto al contenuto successivo */
     margin-bottom: 10%;
 
-    /* Debugging */
-    /* Altezza fissa per debugging */
-    /* height: 300px; */
-
     /* Stile per la parte sinistra della card */
     .cardleft {
         width: 500px;
         height: 500px;
-        /* Margine sinistro per la parte sinistra */
-        // margin-left: 20%;
 
         /* Immagine a grandezza massima */
         .image {
@@ -360,8 +352,6 @@ main{
         #P-container {
             /* Altezza della riga per migliorare la leggibilità */
             line-height: 30px;
-            /* Margine destro per allineare il testo a destra */
-            // margin-right: 1003px;
         }
     }
 }
@@ -450,50 +440,50 @@ main{
 .why-us-container {
 
 /* Stile per l'immagine laterale (carmen) */
-#carmen-sideimage {
-    /* Larghezza al 75% rispetto al contenitore */
-    width: 75%;
-    /* Altezza al 75% rispetto al contenitore */
-    height: 75%;
-    /* Spostamento verso l'alto di 100px */
-    margin-top: 100px;
-    /* Spostamento a sinistra del 50% rispetto al contenitore */
-    margin-left: -50%;
-}
-
-/* Contenitore principale per la lista di motivi */
-#chooseus-why-list {
-    /* Spostamento verso l'alto del 60% rispetto al contenitore */
-    margin-top: -60%;
-    /* Spostamento a sinistra del 50% rispetto al contenitore */
-    margin-left: 50%;
-    /* Margine inferiore del 10% rispetto al contenitore */
-    margin-bottom: 10%;
-
-    /* Stile per il titolo principale della sezione */
-    h1 {
-        /* Dimensione del titolo principale */
-        font-size: 3rem;
+    #carmen-sideimage {
+        /* Larghezza al 75% rispetto al contenitore */
+        width: 75%;
+        /* Altezza al 75% rispetto al contenitore */
+        height: 75%;
+        /* Spostamento verso l'alto di 100px */
+        margin-top: 100px;
+        /* Spostamento a sinistra del 50% rispetto al contenitore */
+        margin-left: -50%;
     }
 
-    /* Stile per ciascun motivo nella lista */
-    #why-one, #why-two, #why-three {
-        /* Margine inferiore di 40px */
-        margin-bottom: 40px;
+    /* Contenitore principale per la lista di motivi */
+    #chooseus-why-list {
+        /* Spostamento verso l'alto del 60% rispetto al contenitore */
+        margin-top: -60%;
+        /* Spostamento a sinistra del 50% rispetto al contenitore */
+        margin-left: 50%;
+        /* Margine inferiore del 10% rispetto al contenitore */
+        margin-bottom: 10%;
 
-        /* Stile per il sottotitolo del motivo */
-        h3 {
-            /* Dimensione del sottotitolo */
-            font-size: 1.5rem;
+        /* Stile per il titolo principale della sezione */
+        h1 {
+            /* Dimensione del titolo principale */
+            font-size: 3rem;
         }
 
-        /* Stile per l'immagine rappresentativa del motivo */
-        img {
-            /* Larghezza al 15% rispetto al contenitore */
-            width: 15%;
+        /* Stile per ciascun motivo nella lista */
+        #why-one, #why-two, #why-three {
+            /* Margine inferiore di 40px */
+            margin-bottom: 40px;
+
+            /* Stile per il sottotitolo del motivo */
+            h3 {
+                /* Dimensione del sottotitolo */
+                font-size: 1.5rem;
+            }
+
+            /* Stile per l'immagine rappresentativa del motivo */
+            img {
+                /* Larghezza al 15% rispetto al contenitore */
+                width: 15%;
+            }
         }
     }
-}
 }
 
 /* Sezione delle recensioni dei clienti */
@@ -504,8 +494,6 @@ main{
     margin-left: 15%;
     display: flex;
     padding-bottom: 300px; /* Aggiunto padding per separazione */
-    /* Debugging */
-    /* background-color: lightblue; */
 
     /* Contenitore principale per le recensioni */
     .blocco-container {
@@ -515,8 +503,6 @@ main{
         display: block;
         padding-left: 100px;
         padding-right: 100px;
-        /* Debugging */
-        /* background-color: lightpink; */
 
         /* Contenitore del testo */
         .text-container {
@@ -544,17 +530,11 @@ main{
         /* background-color: lightblue; */
         display: block;
         margin-bottom: 10%; /* Ridotto il margine inferiore */
-        /* Debugging */
-        /* height: 300px; */
 
         /* Stile per la parte sinistra della card */
         .cardleft {
             width: 70%;
             margin: auto;
-            /* Debugging */
-            /* min-height: 5000px; */
-            /* Margin-left ridotto */
-            /* margin-left: 20%; */
 
             /* Immagine a grandezza massima */
             .image {
@@ -569,9 +549,7 @@ main{
             width: 90%;
             margin: auto;
             margin-left: 24%;
-            /* Debugging */
-            /* max-height: 300px; */
-
+        
             h1 {
                 font-size: 3rem;
             }
@@ -579,8 +557,7 @@ main{
             /* Contenitore per i paragrafi */
             #P-container {
                 line-height: 20px;
-                /* Margin-right ridotto */
-                /* margin-right: 1003px; */
+               
             }
         }
     }
@@ -596,8 +573,6 @@ main{
         .five-service {
             width: 50%;
             margin: auto;
-            /* Debugging */
-            /* background-color: aqua; */
             display: block;
 
             /* Stile per ogni singolo servizio */
@@ -646,13 +621,10 @@ main{
 
     /* Stile per la sezione "Why Choose Us?" */
     .why-us-container {
-        /* Debugging */
-        /* display: flex; */
-
         /* Stile per l'immagine laterale (Carmen) */
         #carmen-sideimage {
             width: 75%;
-            height: 75%;
+            height: 75%; 
             margin-top: 100px;
             margin-left: 12%; /* Modificato margine sinistro */
         }
@@ -690,8 +662,6 @@ main{
     margin-left: 15%;
     display: block;
     padding-bottom: 300px; /* Aggiunto padding per separazione */
-    /* Debugging */
-    /* background-color: lightblue; */
 
     /* Contenitore principale per le recensioni */
     .blocco-container {
@@ -701,8 +671,6 @@ main{
         display: block;
         padding-left: 100px;
         padding-right: 100px;
-        /* Debugging */
-        /* background-color: lightpink; */
 
         /* Contenitore del testo */
         .text-container {
